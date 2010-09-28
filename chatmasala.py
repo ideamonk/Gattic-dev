@@ -14,7 +14,7 @@ Copyright (C) 2010 Abhishek Mishra, ideamonk.com
 import sys
 import getpass
 import sqlite3
-
+import lxml
 try:
     from mechanize import Browser
 except ImportError:
