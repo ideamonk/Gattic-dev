@@ -13,8 +13,9 @@ Copyright (C) 2010 Abhishek Mishra, ideamonk.com
 '''
 import sys
 import getpass
-import sqlite3
-import lxml
+import sqlite3  # TODO: storage, incremental backup
+#from lxml.html import parse     # TODO: switch to XPath and faster, lighter lxml
+
 try:
     from mechanize import Browser
 except ImportError:
@@ -22,11 +23,10 @@ except ImportError:
     sys.exit(1)
 
 try:
-    from BeautifulSoup import BeautifulSoup
+    from BeautifulSoup import BeautifulSoup, NavigableString
 except ImportError:
     print "Beautiful required but missing"
     sys.exit(1)
-
     
 __author__ = "Abhishek Mishra"
 __copyright__ = "Copyright 2010, Abhishek Mishra"
@@ -75,24 +75,32 @@ if __name__ == '__main__':
 
     # goto chat page 
     list_page = br.open("https://mail.google.com/mail/h/?s=q&q=subject:(\"Chat+with\")&nvp_site_mail=Search+Mail").read()
-    list_soup = BeautifulSoup(list_page)
+    search_start = 20
+    while "Older" in list_page:
+        list_soup = BeautifulSoup(list_page)
 
-    main_table = list_soup.findAll('table', {'cellpadding':'2', 'cellspacing':'0', 
-                                                'width':'100%', 'border':'0', 'class':'th', 
-                                                                        'bgcolor':'#e8eef7'})[0]
-    list_rows = main_table.findAll('tr')
-    for row in list_rows:
-        link = row.find('td').findNext('td').findNext('td').a['href']
-        expanded_link = "/mail/h/" + link + '&d=e'
-        chat_soup = BeautifulSoup( br.open(expanded_link).read() )
-        chat_table = chat_soup.findAll('table', {'cellpadding':'1', 'cellspacing':'0', 
-                                                'width':'98%', 'border':'0', 'bgcolor':'#cccccc' })[0]
+        main_table = list_soup.findAll('table', {'cellpadding':'2', 'cellspacing':'0', 
+                                                    'width':'100%', 'border':'0', 'class':'th', 
+                                                                            'bgcolor':'#e8eef7'})[0]
+        list_rows = main_table.findAll('tr')
+        for row in list_rows:
+            link = row.find('td').findNext('td').findNext('td').a['href']
+            expanded_link = "/mail/h/" + link + '&d=e'
+            chat_soup = BeautifulSoup( br.open(expanded_link).read() )
+            #list_xml = parse(br.open(expanded_link)).getroot() # TODO 
+            #list_xml.xpath("//table[2]/tr/td[2]/table/tr/td[2]/table[4]/tr/td/table/tr[4]/td/div/div")[0].text_content()
+            chat_table = chat_soup.findAll('table', {'cellpadding':'1', 'cellspacing':'0', 
+                                                    'width':'98%', 'border':'0', 'bgcolor':'#cccccc' })[0]
                                             
-        person = row.find('td').findNext('td').contents[0].strip()
-        date_time = chat_table.find('td', {'align':'right', 'valign':'top'}).contents[0]
-    
-        chat_divs = chat_soup.findAll('div', {'class':'msg'})
-        for div in chat_divs:
-            for msg_line in div.findAll('div'):
-                print strip_ml_tags(msg_line.__str__().strip())
-        raw_input()
+            person = row.find('td').findNext('td').contents[0].encode("utf-8").strip()
+            date_time = chat_table.find('td', {'align':'right', 'valign':'top'}).contents[0].encode("utf-8")
+            
+            print "WITH %s   at   %s _______________________" % (person, date_time)
+            chat_divs = chat_soup.findAll('div', {'class':'msg'})
+            for div in chat_divs:
+                for msg_line in div.findAll('div'):
+                    print strip_ml_tags(msg_line.encode("utf-8").strip())
+            print 
+            print
+        list_page = br.open("/mail/h/?s=q&q=subject:(\"Chat+with\")&st=%s" % search_start).read()
+        search_start += 20
