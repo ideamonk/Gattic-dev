@@ -60,6 +60,8 @@ def strip_ml_tags(in_text):
     return join_char.join(s_list)
     
 if __name__ == '__main__':
+    sys.setdefaultencoding("utf-8")
+
     #print "Email address:",
     email = "ideamonk@gmail.com"
     passwd = getpass.getpass()
