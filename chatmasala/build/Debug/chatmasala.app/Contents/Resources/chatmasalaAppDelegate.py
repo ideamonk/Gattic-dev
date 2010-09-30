@@ -8,7 +8,9 @@
 
 from Foundation import *
 from AppKit import *
+from objc import IBOutlet, IBAction
 
-class chatmasalaAppDelegate(NSObject):
+class chatmasalaAppDelegate(NSObject):        
     def applicationDidFinishLaunching_(self, sender):
         NSLog("Application did finish launching.")
+

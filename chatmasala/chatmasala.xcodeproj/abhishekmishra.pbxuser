@@ -4,6 +4,9 @@
 		activeBuildConfigurationName = Debug;
 		activeExecutable = 91204581125391C3003F51D1 /* chatmasala */;
 		activeTarget = 8D1107260486CEB800E47090 /* chatmasala */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* chatmasala */,
+		);
 		codeSenseManager = 91204596125391D4003F51D1 /* Code sense */;
 		executables = (
 			91204581125391C3003F51D1 /* chatmasala */,
@@ -36,6 +39,27 @@
 		};
 		sourceControlManager = 91204595125391D4003F51D1 /* Source Control */;
 		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {950, 689}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 918}";
+		};
+	};
+	77631A3E0C0748CF005415CB /* main.py */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {621, 329}}";
+			sepNavSelRange = "{357, 0}";
+			sepNavVisRange = "{0, 408}";
+		};
+	};
+	7790198E0C07548A00326F66 /* chatmasalaAppDelegate.py */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {595, 329}}";
+			sepNavSelRange = "{369, 0}";
+			sepNavVisRange = "{0, 369}";
 		};
 	};
 	8D1107260486CEB800E47090 /* chatmasala */ = {

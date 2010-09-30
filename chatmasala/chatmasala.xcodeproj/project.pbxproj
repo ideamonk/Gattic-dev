@@ -14,6 +14,15 @@
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		912045AB12546768003F51D1 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 912045AA12546768003F51D1 /* WebKit.framework */; };
+		912045DE1254ACAC003F51D1 /* chatmasala.png in Resources */ = {isa = PBXBuildFile; fileRef = 912045DD1254ACAC003F51D1 /* chatmasala.png */; };
+		912045F91254B75F003F51D1 /* Chat.png in Resources */ = {isa = PBXBuildFile; fileRef = 912045F31254B75F003F51D1 /* Chat.png */; };
+		912045FA1254B75F003F51D1 /* Gmail.png in Resources */ = {isa = PBXBuildFile; fileRef = 912045F41254B75F003F51D1 /* Gmail.png */; };
+		912045FB1254B75F003F51D1 /* Help.png in Resources */ = {isa = PBXBuildFile; fileRef = 912045F51254B75F003F51D1 /* Help.png */; };
+		912045FC1254B75F003F51D1 /* Note.png in Resources */ = {isa = PBXBuildFile; fileRef = 912045F61254B75F003F51D1 /* Note.png */; };
+		912045FD1254B75F003F51D1 /* Statistics.png in Resources */ = {isa = PBXBuildFile; fileRef = 912045F71254B75F003F51D1 /* Statistics.png */; };
+		912045FE1254B75F003F51D1 /* Upwards.png in Resources */ = {isa = PBXBuildFile; fileRef = 912045F81254B75F003F51D1 /* Upwards.png */; };
+		9120463E1254C1D3003F51D1 /* Controller_MainWindow.py in Resources */ = {isa = PBXBuildFile; fileRef = 9120463D1254C1D3003F51D1 /* Controller_MainWindow.py */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +39,15 @@
 		77C8C1F80C07829500965286 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* chatmasala.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chatmasala.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		912045AA12546768003F51D1 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		912045DD1254ACAC003F51D1 /* chatmasala.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chatmasala.png; sourceTree = "<group>"; };
+		912045F31254B75F003F51D1 /* Chat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chat.png; sourceTree = "<group>"; };
+		912045F41254B75F003F51D1 /* Gmail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Gmail.png; sourceTree = "<group>"; };
+		912045F51254B75F003F51D1 /* Help.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Help.png; sourceTree = "<group>"; };
+		912045F61254B75F003F51D1 /* Note.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Note.png; sourceTree = "<group>"; };
+		912045F71254B75F003F51D1 /* Statistics.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Statistics.png; sourceTree = "<group>"; };
+		912045F81254B75F003F51D1 /* Upwards.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Upwards.png; sourceTree = "<group>"; };
+		9120463D1254C1D3003F51D1 /* Controller_MainWindow.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = Controller_MainWindow.py; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +57,7 @@
 			files = (
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
 				77631A270C06C501005415CB /* Python.framework in Frameworks */,
+				912045AB12546768003F51D1 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -49,6 +68,7 @@
 			isa = PBXGroup;
 			children = (
 				7790198E0C07548A00326F66 /* chatmasalaAppDelegate.py */,
+				9120463D1254C1D3003F51D1 /* Controller_MainWindow.py */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -88,6 +108,7 @@
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
+				912045AA12546768003F51D1 /* WebKit.framework */,
 			);
 			name = chatmasala;
 			sourceTree = "<group>";
@@ -105,6 +126,13 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				912045F31254B75F003F51D1 /* Chat.png */,
+				912045F41254B75F003F51D1 /* Gmail.png */,
+				912045F51254B75F003F51D1 /* Help.png */,
+				912045F61254B75F003F51D1 /* Note.png */,
+				912045F71254B75F003F51D1 /* Statistics.png */,
+				912045F81254B75F003F51D1 /* Upwards.png */,
+				912045DD1254ACAC003F51D1 /* chatmasala.png */,
 				77C8C1F70C07829500965286 /* MainMenu.xib */,
 				8D1107310486CEB800E47090 /* Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
@@ -168,6 +196,14 @@
 				77631A3F0C0748CF005415CB /* main.py in Resources */,
 				7790198F0C07548A00326F66 /* chatmasalaAppDelegate.py in Resources */,
 				77C8C1F90C07829500965286 /* MainMenu.xib in Resources */,
+				912045DE1254ACAC003F51D1 /* chatmasala.png in Resources */,
+				912045F91254B75F003F51D1 /* Chat.png in Resources */,
+				912045FA1254B75F003F51D1 /* Gmail.png in Resources */,
+				912045FB1254B75F003F51D1 /* Help.png in Resources */,
+				912045FC1254B75F003F51D1 /* Note.png in Resources */,
+				912045FD1254B75F003F51D1 /* Statistics.png in Resources */,
+				912045FE1254B75F003F51D1 /* Upwards.png in Resources */,
+				9120463E1254C1D3003F51D1 /* Controller_MainWindow.py in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
