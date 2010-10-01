@@ -11,6 +11,7 @@ from AppKit import *
 from objc import IBOutlet, IBAction
 
 from helpers import *
+import chatmasala_core
 
 class Controller_MainWindow(NSWindowController):
     myWebView = IBOutlet()
