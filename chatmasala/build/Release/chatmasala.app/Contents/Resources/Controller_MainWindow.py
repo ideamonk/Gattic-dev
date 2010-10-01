@@ -10,6 +10,8 @@ from Foundation import *
 from AppKit import *
 from objc import IBOutlet, IBAction
 
+from helpers import *
+
 class Controller_MainWindow(NSWindowController):
     myWebView = IBOutlet()
     myTableGrid = IBOutlet()
@@ -26,48 +28,48 @@ class Controller_MainWindow(NSWindowController):
     TOOL_HEIGHT = None
     
     def awakeFromNib(self):
+        # collect spread out controllers one over the other
+        self.menuPanel.setAllowsUserCustomization_(NO)
+        self.TOOL_HEIGHT = self.mainWindow.frame().size.height \
+                    - self.mainWindow.contentView().frame().size.height
         self.SCREEN_FRAME = self.mainWindow.screen().frame()
         
         # reset your own size
         self.mainWindow.setFrame_display_(
-                NSRect(
-                        self.mainWindow.frame().origin,
-                        (self.MAIN_WIDTH,self.MAIN_HEIGHT)
-                    ), 
-                YES
-            )
-        
-        # collect spread out controllers one over the other
-        self.menuPanel.setAllowsUserCustomization_(NO)
-        self.TOOL_HEIGHT = self.mainWindow.frame().size.height - self.mainWindow.contentView().frame().size.height
-        
+            NSRect(
+                    self.mainWindow.frame().origin,
+                    (self.MAIN_WIDTH,self.MAIN_HEIGHT + self.TOOL_HEIGHT)
+                ), 
+            YES
+        )
         self.chatSplitView.setFrame_(
-                    NSRect(
-                        (0, 0),
-                        (self.MAIN_WIDTH, self.mainWindow.contentView().frame().size.height)
-                    )
-                )
+            NSRect(
+                (0, 0),
+                (self.MAIN_WIDTH, self.mainWindow.contentView().frame().size.height)
+            )
+        )
         self.overviewView.setFrame_(
-                    NSRect(
-                        (0, 0),
-                        (self.MAIN_WIDTH, self.mainWindow.contentView().frame().size.height)
-                    )
-                )
+            NSRect(
+                (0, 0),
+                (self.MAIN_WIDTH, self.mainWindow.contentView().frame().size.height)
+            )
+        )
         self.prefsView.setFrame_(
-                    NSRect(
-                        (0, 0),
-                        (self.MAIN_WIDTH, self.mainWindow.contentView().frame().size.height)
-                    )
-                )
+            NSRect(
+                (0, 0),
+                (self.MAIN_WIDTH, self.mainWindow.contentView().frame().size.height)
+            )
+        )
         
         # hide nondefault views
         self.prefsView.setAlphaValue_(0.0)
         self.chatSplitView.setAlphaValue_(0.0)
         
+        
     @IBAction
     def BtnSyncClick_(self, sender):
-        NSLog("Hola")
-
+        self.myWebView.setMainFrameURL_("file://" + applicationBundlePath() + "/chatview.html")
+        
     @IBAction
     def BtnActionPanelClick_(self, sender):
         pressed = sender.labelForSegment_( sender.selectedSegment() )

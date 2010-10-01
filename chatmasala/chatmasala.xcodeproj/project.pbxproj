@@ -23,6 +23,9 @@
 		912045FD1254B75F003F51D1 /* Statistics.png in Resources */ = {isa = PBXBuildFile; fileRef = 912045F71254B75F003F51D1 /* Statistics.png */; };
 		912045FE1254B75F003F51D1 /* Upwards.png in Resources */ = {isa = PBXBuildFile; fileRef = 912045F81254B75F003F51D1 /* Upwards.png */; };
 		9120463E1254C1D3003F51D1 /* Controller_MainWindow.py in Resources */ = {isa = PBXBuildFile; fileRef = 9120463D1254C1D3003F51D1 /* Controller_MainWindow.py */; };
+		91F0838C12561498003868A9 /* helpers.py in Resources */ = {isa = PBXBuildFile; fileRef = 91F0838B12561498003868A9 /* helpers.py */; };
+		91F083BD12561809003868A9 /* chatview.html in Resources */ = {isa = PBXBuildFile; fileRef = 91F083BC12561809003868A9 /* chatview.html */; };
+		91F08474125630ED003868A9 /* chatmasala_core.py in Resources */ = {isa = PBXBuildFile; fileRef = 91F08473125630ED003868A9 /* chatmasala_core.py */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +51,9 @@
 		912045F71254B75F003F51D1 /* Statistics.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Statistics.png; sourceTree = "<group>"; };
 		912045F81254B75F003F51D1 /* Upwards.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Upwards.png; sourceTree = "<group>"; };
 		9120463D1254C1D3003F51D1 /* Controller_MainWindow.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = Controller_MainWindow.py; sourceTree = "<group>"; };
+		91F0838B12561498003868A9 /* helpers.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = helpers.py; sourceTree = "<group>"; };
+		91F083BC12561809003868A9 /* chatview.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = chatview.html; sourceTree = "<group>"; };
+		91F08473125630ED003868A9 /* chatmasala_core.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = chatmasala_core.py; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +75,7 @@
 			children = (
 				7790198E0C07548A00326F66 /* chatmasalaAppDelegate.py */,
 				9120463D1254C1D3003F51D1 /* Controller_MainWindow.py */,
+				91F0838B12561498003868A9 /* helpers.py */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -103,6 +110,7 @@
 		29B97314FDCFA39411CA2CEA /* chatmasala */ = {
 			isa = PBXGroup;
 			children = (
+				91F08472125630D4003868A9 /* Main Scripts */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -136,6 +144,7 @@
 				77C8C1F70C07829500965286 /* MainMenu.xib */,
 				8D1107310486CEB800E47090 /* Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				91F083BC12561809003868A9 /* chatview.html */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -147,6 +156,14 @@
 				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		91F08472125630D4003868A9 /* Main Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				91F08473125630ED003868A9 /* chatmasala_core.py */,
+			);
+			name = "Main Scripts";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,6 +192,9 @@
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = NO;
+			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "chatmasala" */;
 			compatibilityVersion = "Xcode 3.0";
 			hasScannedForEncodings = 1;
@@ -204,6 +224,9 @@
 				912045FD1254B75F003F51D1 /* Statistics.png in Resources */,
 				912045FE1254B75F003F51D1 /* Upwards.png in Resources */,
 				9120463E1254C1D3003F51D1 /* Controller_MainWindow.py in Resources */,
+				91F0838C12561498003868A9 /* helpers.py in Resources */,
+				91F083BD12561809003868A9 /* chatview.html in Resources */,
+				91F08474125630ED003868A9 /* chatmasala_core.py in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,11 +298,11 @@
 		C01FCF4F08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
-				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1 = "x86_64 i386 ppc";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				PREBINDING = NO;
+				PREBINDING = YES;
 				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
 			};
 			name = Debug;
@@ -287,12 +310,12 @@
 		C01FCF5008A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
-				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1 = "x86_64 i386 ppc";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				PREBINDING = NO;
+				PREBINDING = YES;
 				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
 			};
 			name = Release;

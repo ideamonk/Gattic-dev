@@ -60,8 +60,6 @@ def strip_ml_tags(in_text):
     return join_char.join(s_list)
     
 if __name__ == '__main__':
-    sys.setdefaultencoding("utf-8")
-
     #print "Email address:",
     email = "ideamonk@gmail.com"
     passwd = getpass.getpass()
@@ -97,11 +95,12 @@ if __name__ == '__main__':
             person = row.find('td').findNext('td').contents[0].encode("utf-8").strip()
             date_time = chat_table.find('td', {'align':'right', 'valign':'top'}).contents[0].encode("utf-8")
             
-            print "WITH %s   at   %s _______________________" % (person, date_time)
+            #print "WITH %s   at   %s _______________________" % (person, date_time)
             chat_divs = chat_soup.findAll('div', {'class':'msg'})
             for div in chat_divs:
-                for msg_line in div.findAll('div'):
-                    print strip_ml_tags(msg_line.encode("utf-8").strip())
+                #for msg_line in div.findAll('div'):
+                #    print strip_ml_tags(msg_line.encode("utf-8").strip())
+                print div
             print 
             print
         list_page = br.open("/mail/h/?s=q&q=subject:(\"Chat+with\")&st=%s" % search_start).read()
