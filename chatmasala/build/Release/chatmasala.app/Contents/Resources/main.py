@@ -8,6 +8,7 @@
 
 #import modules required by application
 from PyObjCTools import AppHelper
+import WebKit       # this makes py2app aware of WebView
 
 import objc
 import Foundation
@@ -18,6 +19,6 @@ import AppKit
 import chatmasalaAppDelegate
 import Controller_MainWindow
 
-base_path = os.path.join(os.path.dirname(os.getcwd()), 'Frameworks')
+#base_path = os.path.join(os.path.dirname(os.getcwd()), 'Frameworks')
 # pass control to AppKit
 AppHelper.runEventLoop()

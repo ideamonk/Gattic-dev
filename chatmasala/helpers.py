@@ -13,7 +13,7 @@ import os
 APPNAME = "ChatMasala"
 
 def applicationBundlePath():
-    return os.path.dirname(__file__)
+    return NSBundle.mainBundle().bundlePath()
     
 def applicationSupportFolder(appname=None):
     if appname is None:
