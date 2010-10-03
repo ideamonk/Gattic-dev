@@ -9,8 +9,9 @@
 from Foundation import *
 from AppKit import *
 import os
+import threading
 
-APPNAME = "ChatMasala"
+APPNAME = "Gattic"
 
 def applicationBundlePath():
     return NSBundle.mainBundle().bundlePath()
@@ -29,3 +30,11 @@ def applicationSupportFolder(appname=None):
 def pathForFilename(filename,appname=None):
     base = (appname and applicationSupportFolder(appname)) or applicationSupportFolder()
     return base.stringByAppendingPathComponent_(filename)
+    
+def AutoPooled(f):
+    def pooled_func(self):
+        pool = NSAutoreleasePool.alloc().init()
+        f(self)
+        del pool
+    return pooled_func
+    

@@ -11,23 +11,27 @@ from AppKit import *
 from objc import IBOutlet, IBAction
 
 from helpers import *
-import chatmasala_core
+import gattic_core
 
 class Controller_MainWindow(NSWindowController):
-    myWebView = IBOutlet()
+    mainWindow = IBOutlet()
     helpWebVew = IBOutlet()
-    myTableGrid = IBOutlet()
     chatSplitView = IBOutlet()
     overviewView = IBOutlet()
+    
+    myTableGrid = IBOutlet()
+    myWebView = IBOutlet()    
     helpView = IBOutlet()
-    mainWindow = IBOutlet()
+    
     menuPanel = IBOutlet()
     statusView = IBOutlet()
     spinnerStatus = IBOutlet()
     labelStatus = IBOutlet()
+    warningStatus = IBOutlet()
     loginView = IBOutlet()
     gattic_username = IBOutlet()
     gattic_password = IBOutlet()
+    gattic_BtnLogin = IBOutlet()
     
     # default configs, etc
     MAIN_WIDTH = 524
@@ -36,6 +40,10 @@ class Controller_MainWindow(NSWindowController):
     SCREEN_FRAME = None
     TOOL_HEIGHT = None
     STATUS_HEIGHT = None
+    
+    # auth params
+    auth_login = None
+    auth_pass = None
 
     def showGattic(self):
         ''' Default view - Gattic '''
@@ -94,7 +102,9 @@ class Controller_MainWindow(NSWindowController):
                     - self.mainWindow.contentView().frame().size.height
         self.SCREEN_FRAME = self.mainWindow.screen().frame()
         self.spinnerStatus.setHidden_(YES)
-
+        self.labelStatus.setNeedsDisplay_(YES)
+        self.spinnerStatus.setNeedsDisplay_(YES)
+        
         # reset your own size
         self.mainWindow.setFrame_display_(
             NSRect(
@@ -142,21 +152,57 @@ class Controller_MainWindow(NSWindowController):
         self.showGattic()        
     
     @IBAction
-    def BtnHelpClick_(self, sender):
-        self.showHelp()
+    def BtnSyncUpClick_(self, sender):
+        print "SYNC"
         
     @IBAction
     def BtnActionPanelClick_(self, sender):
         pressed = sender.labelForSegment_( sender.selectedSegment() )
         if pressed=="Gattic":
             self.showGattic()
-
         if pressed=="My Attic":
             self.showMyAttic()
+        if pressed=="Help":
+            self.showHelp()
             
+    def toggleLoginControls(self, bool):
+        self.gattic_password.setEnabled_(bool)
+        self.gattic_username.setEnabled_(bool)
+        self.gattic_BtnLogin.setEnabled_(bool)
+        
     @IBAction
     def BtnSignInClick_(self,sender):
-        print self.gattic_username.stringValue()
-        print self.gattic_password.stringValue()
-        print "pressed"
-        pass
+        self.auth_login = email = self.gattic_username.stringValue()
+        self.auth_pass = password = self.gattic_password.stringValue()
+        
+        if gattic_core.validate_auth(email, password):
+            # lock the buttons etc
+            self.toggleLoginControls(NO)
+            # activate status bar msg
+            self.spinnerStatus.startAnimation_(self)
+            # authenticate
+            thread = NSThread.detachNewThreadSelector_toTarget_withObject_(
+                                                    'start_do_auth',self, None)
+        else:
+            print "rejected"
+    
+    @AutoPooled
+    def start_do_auth(self):        
+        gattic_core.do_auth(self.return_do_auth,self.auth_login,self.auth_pass)
+        
+    def return_do_auth(self,code, msg):
+        if code==1:
+            # failed
+            self.labelStatus.setStringValue_(msg)
+            self.spinnerStatus.setHidden_(YES)
+            self.warningStatus.setHidden_(NO)
+            self.toggleLoginControls(YES)
+        elif code==2:
+            #progress
+            self.labelStatus.setStringValue_(msg)
+            self.warningStatus.setHidden_(YES)
+            self.spinnerStatus.setHidden_(NO)
+        else:
+            self.spinnerStatus.setHidden_(NO)
+            self.labelStatus.setStringValue_("Signed in as " + self.auth_login)
+            print "PASSED"

@@ -21,7 +21,7 @@
 		</object>
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
-			<integer value="737"/>
+			<integer value="371"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
@@ -707,7 +707,7 @@
 				<string key="NSName">_NSMainMenu</string>
 			</object>
 			<object class="NSWindowTemplate" id="972006081">
-				<int key="NSWindowStyleMask">4111</int>
+				<int key="NSWindowStyleMask">271</int>
 				<int key="NSWindowBacking">2</int>
 				<string key="NSWindowRect">{{389, 209}, {592, 474}}</string>
 				<int key="NSWTFlags">1946165248</int>
@@ -728,38 +728,14 @@
 						<bool key="EncodedWithXMLCoder">YES</bool>
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<string>109D0C7B-D3C1-4FD7-91FB-1306DBF60AD6</string>
 							<string>276C5BBF-7B34-4306-8A11-9A1B850F0B1E</string>
 							<string>52F3F1FA-ADA7-4AC1-8586-9901434FF0B4</string>
-							<string>98908C21-42E3-4FB3-80AA-D56DFB92098D</string>
 							<string>A558E644-F95B-4391-8F13-FA1A4F14E328</string>
 							<string>CDDE83B1-2B0A-4E9B-86E5-9939E581F7EA</string>
 							<string>NSToolbarFlexibleSpaceItem</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<object class="NSToolbarItem" id="365128967">
-								<object class="NSMutableString" key="NSToolbarItemIdentifier">
-									<characters key="NS.bytes">109D0C7B-D3C1-4FD7-91FB-1306DBF60AD6</characters>
-								</object>
-								<string key="NSToolbarItemLabel">My Attic</string>
-								<string key="NSToolbarItemPaletteLabel">My Attic</string>
-								<string key="NSToolbarItemToolTip"/>
-								<nil key="NSToolbarItemView"/>
-								<object class="NSCustomResource" key="NSToolbarItemImage" id="920623203">
-									<string key="NSClassName">NSImage</string>
-									<string key="NSResourceName">Gmail</string>
-								</object>
-								<nil key="NSToolbarItemTarget"/>
-								<nil key="NSToolbarItemAction"/>
-								<string key="NSToolbarItemMinSize">{0, 0}</string>
-								<string key="NSToolbarItemMaxSize">{0, 0}</string>
-								<bool key="NSToolbarItemEnabled">YES</bool>
-								<bool key="NSToolbarItemAutovalidates">YES</bool>
-								<int key="NSToolbarItemTag">-1</int>
-								<bool key="NSToolbarIsUserRemovable">YES</bool>
-								<int key="NSToolbarItemVisibilityPriority">0</int>
-							</object>
 							<object class="NSToolbarItem" id="151886364">
 								<object class="NSMutableString" key="NSToolbarItemIdentifier">
 									<characters key="NS.bytes">276C5BBF-7B34-4306-8A11-9A1B850F0B1E</characters>
@@ -770,14 +746,14 @@
 								<object class="NSButton" key="NSToolbarItemView" id="912039670">
 									<reference key="NSNextResponder"/>
 									<int key="NSvFlags">268</int>
-									<string key="NSFrame">{{0, 14}, {97, 25}}</string>
+									<string key="NSFrame">{{0, 14}, {102, 25}}</string>
 									<reference key="NSSuperview"/>
 									<reference key="NSWindow"/>
 									<bool key="NSEnabled">YES</bool>
 									<object class="NSButtonCell" key="NSCell" id="341313354">
 										<int key="NSCellFlags">67239424</int>
 										<int key="NSCellFlags2">134217728</int>
-										<string key="NSContents">Help</string>
+										<string key="NSContents">Sync Up</string>
 										<object class="NSFont" key="NSSupport" id="382615864">
 											<string key="NSName">LucidaGrande</string>
 											<double key="NSSize">13</double>
@@ -786,9 +762,9 @@
 										<reference key="NSControlView" ref="912039670"/>
 										<int key="NSButtonFlags">-2034482945</int>
 										<int key="NSButtonFlags2">163</int>
-										<object class="NSCustomResource" key="NSNormalImage" id="948069004">
+										<object class="NSCustomResource" key="NSNormalImage" id="517650395">
 											<string key="NSClassName">NSImage</string>
-											<string key="NSResourceName">Help</string>
+											<string key="NSResourceName">Upwards</string>
 										</object>
 										<string key="NSAlternateContents"/>
 										<string key="NSKeyEquivalent"/>
@@ -796,7 +772,7 @@
 										<int key="NSPeriodicInterval">75</int>
 									</object>
 								</object>
-								<reference key="NSToolbarItemImage" ref="948069004"/>
+								<reference key="NSToolbarItemImage" ref="517650395"/>
 								<nil key="NSToolbarItemTarget"/>
 								<nil key="NSToolbarItemAction"/>
 								<string key="NSToolbarItemMinSize">{70, 25}</string>
@@ -817,7 +793,7 @@
 								<object class="NSSegmentedControl" key="NSToolbarItemView" id="384839805">
 									<reference key="NSNextResponder"/>
 									<int key="NSvFlags">268</int>
-									<string key="NSFrame">{{0, 14}, {282, 25}}</string>
+									<string key="NSFrame">{{0, 14}, {261, 25}}</string>
 									<reference key="NSSuperview"/>
 									<reference key="NSWindow"/>
 									<bool key="NSEnabled">YES</bool>
@@ -838,19 +814,20 @@
 												<int key="NSSegmentItemImageScaling">0</int>
 											</object>
 											<object class="NSSegmentItem">
-												<reference key="NSSegmentItemImage" ref="920623203"/>
+												<object class="NSCustomResource" key="NSSegmentItemImage" id="804308823">
+													<string key="NSClassName">NSImage</string>
+													<string key="NSResourceName">Gmail</string>
+												</object>
 												<string key="NSSegmentItemLabel">My Attic</string>
 												<int key="NSSegmentItemTag">1</int>
-												<bool key="NSSegmentItemDisabled">YES</bool>
 												<int key="NSSegmentItemImageScaling">0</int>
 											</object>
 											<object class="NSSegmentItem">
 												<object class="NSCustomResource" key="NSSegmentItemImage">
 													<string key="NSClassName">NSImage</string>
-													<string key="NSResourceName">Upwards</string>
+													<string key="NSResourceName">Help</string>
 												</object>
-												<string key="NSSegmentItemLabel">Sync Up</string>
-												<bool key="NSSegmentItemDisabled">YES</bool>
+												<string key="NSSegmentItemLabel">Help</string>
 												<int key="NSSegmentItemImageScaling">0</int>
 											</object>
 										</object>
@@ -865,25 +842,6 @@
 								<bool key="NSToolbarItemEnabled">YES</bool>
 								<bool key="NSToolbarItemAutovalidates">YES</bool>
 								<int key="NSToolbarItemTag">0</int>
-								<bool key="NSToolbarIsUserRemovable">YES</bool>
-								<int key="NSToolbarItemVisibilityPriority">0</int>
-							</object>
-							<object class="NSToolbarItem" id="170898465">
-								<object class="NSMutableString" key="NSToolbarItemIdentifier">
-									<characters key="NS.bytes">98908C21-42E3-4FB3-80AA-D56DFB92098D</characters>
-								</object>
-								<string key="NSToolbarItemLabel">Help</string>
-								<string key="NSToolbarItemPaletteLabel">Help</string>
-								<string key="NSToolbarItemToolTip"/>
-								<nil key="NSToolbarItemView"/>
-								<reference key="NSToolbarItemImage" ref="948069004"/>
-								<nil key="NSToolbarItemTarget"/>
-								<nil key="NSToolbarItemAction"/>
-								<string key="NSToolbarItemMinSize">{0, 0}</string>
-								<string key="NSToolbarItemMaxSize">{0, 0}</string>
-								<bool key="NSToolbarItemEnabled">YES</bool>
-								<bool key="NSToolbarItemAutovalidates">YES</bool>
-								<int key="NSToolbarItemTag">-1</int>
 								<bool key="NSToolbarIsUserRemovable">YES</bool>
 								<int key="NSToolbarItemVisibilityPriority">0</int>
 							</object>
@@ -1104,8 +1062,6 @@
 						<reference ref="234662878"/>
 						<reference ref="151886364"/>
 						<reference ref="796578805"/>
-						<reference ref="170898465"/>
-						<reference ref="365128967"/>
 					</object>
 					<object class="NSMutableArray" key="NSToolbarIBDefaultItems">
 						<bool key="EncodedWithXMLCoder">YES</bool>
@@ -1149,7 +1105,7 @@
 												<reference key="NSControlView" ref="823280583"/>
 												<int key="NSButtonFlags">-2035531521</int>
 												<int key="NSButtonFlags2">163</int>
-												<reference key="NSNormalImage" ref="920623203"/>
+												<reference key="NSNormalImage" ref="804308823"/>
 												<string key="NSAlternateContents"/>
 												<string key="NSKeyEquivalent"/>
 												<int key="NSPeriodicDelay">400</int>
@@ -1253,7 +1209,7 @@
 								</object>
 								<object class="NSImageView" id="727507929">
 									<reference key="NSNextResponder" ref="369064185"/>
-									<int key="NSvFlags">266</int>
+									<int key="NSvFlags">270</int>
 									<object class="NSMutableSet" key="NSDragTypes">
 										<bool key="EncodedWithXMLCoder">YES</bool>
 										<object class="NSArray" key="set.sortedObjects">
@@ -1266,7 +1222,7 @@
 											<string>NeXT TIFF v4.0 pasteboard type</string>
 										</object>
 									</object>
-									<string key="NSFrame">{{17, 13}, {314, 373}}</string>
+									<string key="NSFrame">{{15, 3}, {348, 367}}</string>
 									<reference key="NSSuperview" ref="369064185"/>
 									<int key="NSViewLayerContentsRedrawPolicy">2</int>
 									<bool key="NSEnabled">YES</bool>
@@ -1278,7 +1234,7 @@
 											<string key="NSResourceName">try3_no_color</string>
 										</object>
 										<int key="NSAlign">1</int>
-										<int key="NSScale">0</int>
+										<int key="NSScale">3</int>
 										<int key="NSStyle">0</int>
 										<bool key="NSAnimates">NO</bool>
 									</object>
@@ -1332,19 +1288,13 @@
 												<bool key="EncodedWithXMLCoder">YES</bool>
 												<string>WebKitDefaultFixedFontSize</string>
 												<string>WebKitDefaultFontSize</string>
-												<string>WebKitJavaEnabled</string>
-												<string>WebKitJavaScriptCanOpenWindowsAutomatically</string>
 												<string>WebKitMinimumFontSize</string>
-												<string>WebKitPluginsEnabled</string>
 											</object>
 											<object class="NSMutableArray" key="dict.values">
 												<bool key="EncodedWithXMLCoder">YES</bool>
 												<integer value="12"/>
 												<integer value="12"/>
-												<boolean value="NO"/>
-												<boolean value="NO"/>
 												<integer value="1"/>
-												<boolean value="NO"/>
 											</object>
 										</object>
 									</object>
@@ -1615,6 +1565,39 @@
 							<int key="NSvFlags">290</int>
 							<object class="NSMutableArray" key="NSSubviews">
 								<bool key="EncodedWithXMLCoder">YES</bool>
+								<object class="NSImageView" id="860406918">
+									<reference key="NSNextResponder" ref="427260073"/>
+									<int key="NSvFlags">-2147483359</int>
+									<object class="NSMutableSet" key="NSDragTypes">
+										<bool key="EncodedWithXMLCoder">YES</bool>
+										<object class="NSArray" key="set.sortedObjects">
+											<bool key="EncodedWithXMLCoder">YES</bool>
+											<string>Apple PDF pasteboard type</string>
+											<string>Apple PICT pasteboard type</string>
+											<string>Apple PNG pasteboard type</string>
+											<string>NSFilenamesPboardType</string>
+											<string>NeXT Encapsulated PostScript v1.2 pasteboard type</string>
+											<string>NeXT TIFF v4.0 pasteboard type</string>
+										</object>
+									</object>
+									<string key="NSFrame">{{512, -12}, {48, 48}}</string>
+									<reference key="NSSuperview" ref="427260073"/>
+									<bool key="NSEnabled">YES</bool>
+									<object class="NSImageCell" key="NSCell" id="542067322">
+										<int key="NSCellFlags">604110336</int>
+										<int key="NSCellFlags2">33685504</int>
+										<object class="NSCustomResource" key="NSContents">
+											<string key="NSClassName">NSImage</string>
+											<string key="NSResourceName">warningIcon</string>
+										</object>
+										<reference key="NSSupport" ref="26"/>
+										<int key="NSAlign">0</int>
+										<int key="NSScale">0</int>
+										<int key="NSStyle">0</int>
+										<bool key="NSAnimates">NO</bool>
+									</object>
+									<bool key="NSEditable">YES</bool>
+								</object>
 								<object class="NSTextField" id="19333287">
 									<reference key="NSNextResponder" ref="427260073"/>
 									<int key="NSvFlags">290</int>
@@ -2026,14 +2009,6 @@
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBOutletConnection" key="connection">
-						<string key="label">labelStatus</string>
-						<reference key="source" ref="622819160"/>
-						<reference key="destination" ref="19333287"/>
-					</object>
-					<int key="connectionID">699</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBOutletConnection" key="connection">
 						<string key="label">spinnerStatus</string>
 						<reference key="source" ref="622819160"/>
 						<reference key="destination" ref="277382286"/>
@@ -2047,14 +2022,6 @@
 						<reference key="destination" ref="454872987"/>
 					</object>
 					<int key="connectionID">761</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBActionConnection" key="connection">
-						<string key="label">BtnHelpClick:</string>
-						<reference key="source" ref="622819160"/>
-						<reference key="destination" ref="151886364"/>
-					</object>
-					<int key="connectionID">763</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBOutletConnection" key="connection">
@@ -2103,6 +2070,38 @@
 						<reference key="destination" ref="823280583"/>
 					</object>
 					<int key="connectionID">775</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">labelStatus</string>
+						<reference key="source" ref="622819160"/>
+						<reference key="destination" ref="19333287"/>
+					</object>
+					<int key="connectionID">776</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">gattic_BtnLogin</string>
+						<reference key="source" ref="622819160"/>
+						<reference key="destination" ref="823280583"/>
+					</object>
+					<int key="connectionID">777</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">warningStatus</string>
+						<reference key="source" ref="622819160"/>
+						<reference key="destination" ref="860406918"/>
+					</object>
+					<int key="connectionID">780</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">BtnSyncUpClick:</string>
+						<reference key="source" ref="622819160"/>
+						<reference key="destination" ref="151886364"/>
+					</object>
+					<int key="connectionID">781</int>
 				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -2645,8 +2644,6 @@
 							<reference ref="234662878"/>
 							<reference ref="151886364"/>
 							<reference ref="796578805"/>
-							<reference ref="170898465"/>
-							<reference ref="365128967"/>
 						</object>
 						<reference key="parent" ref="972006081"/>
 					</object>
@@ -2947,6 +2944,7 @@
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<reference ref="277382286"/>
 							<reference ref="19333287"/>
+							<reference ref="860406918"/>
 						</object>
 						<reference key="parent" ref="439893737"/>
 					</object>
@@ -3072,19 +3070,23 @@
 						<reference key="parent" ref="727507929"/>
 					</object>
 					<object class="IBObjectRecord">
-						<int key="objectID">758</int>
-						<reference key="object" ref="170898465"/>
-						<reference key="parent" ref="261895472"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">759</int>
-						<reference key="object" ref="365128967"/>
-						<reference key="parent" ref="261895472"/>
-					</object>
-					<object class="IBObjectRecord">
 						<int key="objectID">764</int>
 						<reference key="object" ref="134761618"/>
 						<reference key="parent" ref="51884554"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">778</int>
+						<reference key="object" ref="860406918"/>
+						<object class="NSMutableArray" key="children">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<reference ref="542067322"/>
+						</object>
+						<reference key="parent" ref="427260073"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">779</int>
+						<reference key="object" ref="542067322"/>
+						<reference key="parent" ref="860406918"/>
 					</object>
 				</object>
 			</object>
@@ -3300,6 +3302,7 @@
 					<string>737.IBPluginDependency</string>
 					<string>74.IBPluginDependency</string>
 					<string>74.ImportedFromIB2</string>
+					<string>744.IBPluginDependency</string>
 					<string>748.IBPluginDependency</string>
 					<string>749.IBPluginDependency</string>
 					<string>75.IBPluginDependency</string>
@@ -3312,13 +3315,11 @@
 					<string>755.IBPluginDependency</string>
 					<string>756.IBPluginDependency</string>
 					<string>757.IBPluginDependency</string>
-					<string>758.IBAttributePlaceholdersKey</string>
-					<string>758.IBPluginDependency</string>
-					<string>759.IBPluginDependency</string>
-					<string>759.toolbarItem.selectable</string>
 					<string>764.IBPluginDependency</string>
 					<string>77.IBPluginDependency</string>
 					<string>77.ImportedFromIB2</string>
+					<string>778.IBPluginDependency</string>
+					<string>779.IBPluginDependency</string>
 					<string>78.IBPluginDependency</string>
 					<string>78.ImportedFromIB2</string>
 					<string>79.IBPluginDependency</string>
@@ -3466,9 +3467,9 @@
 					<integer value="1"/>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<integer value="1"/>
-					<string>{{565, -32}, {592, 474}}</string>
+					<string>{{525, 8}, {592, 474}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-					<string>{{565, -32}, {592, 474}}</string>
+					<string>{{525, 8}, {592, 474}}</string>
 					<integer value="1"/>
 					<string>{{238, 285}, {480, 360}}</string>
 					<boolean value="YES"/>
@@ -3476,7 +3477,7 @@
 					<string>{640, 3000}</string>
 					<string>{524, 470}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-					<string>{{433, 666}, {616, 0}}</string>
+					<string>{{513, 482}, {616, 0}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -3504,7 +3505,7 @@
 					<integer value="1"/>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-					<integer value="0"/>
+					<integer value="2"/>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -3549,6 +3550,7 @@
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<integer value="1"/>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -3558,19 +3560,11 @@
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-					<object class="NSMutableDictionary">
-						<bool key="EncodedWithXMLCoder">YES</bool>
-						<reference key="dict.sortedKeys" ref="0"/>
-						<object class="NSMutableArray" key="dict.values">
-							<bool key="EncodedWithXMLCoder">YES</bool>
-						</object>
-					</object>
-					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-					<boolean value="YES"/>
 					<string>com.apple.WebKitIBPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<integer value="1"/>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<integer value="1"/>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -3605,7 +3599,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">775</int>
+			<int key="maxID">781</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -3618,8 +3612,8 @@
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>BtnActionPanelClick:</string>
-							<string>BtnHelpClick:</string>
 							<string>BtnSignInClick:</string>
+							<string>BtnSyncUpClick:</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
@@ -3633,8 +3627,8 @@
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>BtnActionPanelClick:</string>
-							<string>BtnHelpClick:</string>
 							<string>BtnSignInClick:</string>
+							<string>BtnSyncUpClick:</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
@@ -3643,11 +3637,11 @@
 								<string key="candidateClassName">id</string>
 							</object>
 							<object class="IBActionInfo">
-								<string key="name">BtnHelpClick:</string>
+								<string key="name">BtnSignInClick:</string>
 								<string key="candidateClassName">id</string>
 							</object>
 							<object class="IBActionInfo">
-								<string key="name">BtnSignInClick:</string>
+								<string key="name">BtnSyncUpClick:</string>
 								<string key="candidateClassName">id</string>
 							</object>
 						</object>
@@ -3657,6 +3651,7 @@
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>chatSplitView</string>
+							<string>gattic_BtnLogin</string>
 							<string>gattic_password</string>
 							<string>gattic_username</string>
 							<string>helpView</string>
@@ -3670,9 +3665,12 @@
 							<string>overviewView</string>
 							<string>spinnerStatus</string>
 							<string>statusView</string>
+							<string>warningStatus</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>id</string>
+							<string>id</string>
 							<string>id</string>
 							<string>id</string>
 							<string>id</string>
@@ -3694,6 +3692,7 @@
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>chatSplitView</string>
+							<string>gattic_BtnLogin</string>
 							<string>gattic_password</string>
 							<string>gattic_username</string>
 							<string>helpView</string>
@@ -3707,11 +3706,16 @@
 							<string>overviewView</string>
 							<string>spinnerStatus</string>
 							<string>statusView</string>
+							<string>warningStatus</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<object class="IBToOneOutletInfo">
 								<string key="name">chatSplitView</string>
+								<string key="candidateClassName">id</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">gattic_BtnLogin</string>
 								<string key="candidateClassName">id</string>
 							</object>
 							<object class="IBToOneOutletInfo">
@@ -3764,6 +3768,10 @@
 							</object>
 							<object class="IBToOneOutletInfo">
 								<string key="name">statusView</string>
+								<string key="candidateClassName">id</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">warningStatus</string>
 								<string key="candidateClassName">id</string>
 							</object>
 						</object>
@@ -4786,6 +4794,7 @@
 				<string>Upwards</string>
 				<string>try3_final_512</string>
 				<string>try3_no_color</string>
+				<string>warningIcon</string>
 			</object>
 			<object class="NSMutableArray" key="dict.values">
 				<bool key="EncodedWithXMLCoder">YES</bool>
@@ -4796,6 +4805,7 @@
 				<string>{48, 48}</string>
 				<string>{512, 512}</string>
 				<string>{512, 512}</string>
+				<string>{19, 18}</string>
 			</object>
 		</object>
 	</data>
