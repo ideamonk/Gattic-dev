@@ -82,6 +82,8 @@ class Controller_MainWindow(NSWindowController):
         self.helpView.setFrameOrigin_(
             NSPoint(0,self.mainWindow.contentView().frame().size.height)
         )
+        self.helpView.setHidden_(YES)
+        self.overviewView.setHidden_(YES)
     
     def showHelp(self):
         ''' Help View '''
@@ -172,6 +174,7 @@ class Controller_MainWindow(NSWindowController):
         
     @IBAction
     def BtnSyncUpClick_(self, sender):
+        self.myTableGrid.dataSource().insertInto("test","tester","foo bar")
         print "SYNC"
         
         
@@ -230,12 +233,3 @@ class Controller_MainWindow(NSWindowController):
             self.connectedStatus.setHidden_(NO)
             self.labelStatus.setStringValue_("Signed in as " + self.auth_login)
             print "PASSED"
-
-    @IBAction
-    def myTableGridClick_(self,sender):
-        if sender.selectedRow() != -1:
-            chunk = sender.dataSource().getRow(sender.selectedRow()).replace("'","\\'").replace("\n","")
-            print "foo('%s');" % (chunk.encode("utf-8"))
-            self.myWebView.stringByEvaluatingJavaScriptFromString_("foo('%s');" % (chunk))
-        else:
-            print "got click"
