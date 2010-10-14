@@ -29,6 +29,11 @@
 		91DA0DAE1257A511004D53E6 /* try3_blurred.png in Resources */ = {isa = PBXBuildFile; fileRef = 91DA0DAC1257A511004D53E6 /* try3_blurred.png */; };
 		91DA0DAF1257A511004D53E6 /* try3_no_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 91DA0DAD1257A511004D53E6 /* try3_no_back.png */; };
 		91DA0DB91257A738004D53E6 /* try3_no_color.png in Resources */ = {isa = PBXBuildFile; fileRef = 91DA0DB81257A738004D53E6 /* try3_no_color.png */; };
+		91DB2B7312668FB500E0956F /* gmail2.png in Resources */ = {isa = PBXBuildFile; fileRef = 91DB2B7212668FB500E0956F /* gmail2.png */; };
+		91DB2B7B126697C700E0956F /* Gmailer_small.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 91DB2B7A126697C700E0956F /* Gmailer_small.tiff */; };
+		91DB2B7D126699E400E0956F /* logo_Goog_Balls.png in Resources */ = {isa = PBXBuildFile; fileRef = 91DB2B7C126699E400E0956F /* logo_Goog_Balls.png */; };
+		91DB2B8A1266A00500E0956F /* network.png in Resources */ = {isa = PBXBuildFile; fileRef = 91DB2B891266A00500E0956F /* network.png */; };
+		91DB2BD11266BB5600E0956F /* TableViewProvider.py in Resources */ = {isa = PBXBuildFile; fileRef = 91DB2BD01266BB5600E0956F /* TableViewProvider.py */; };
 		91F0838C12561498003868A9 /* helpers.py in Resources */ = {isa = PBXBuildFile; fileRef = 91F0838B12561498003868A9 /* helpers.py */; };
 		91F083BD12561809003868A9 /* chatview.html in Resources */ = {isa = PBXBuildFile; fileRef = 91F083BC12561809003868A9 /* chatview.html */; };
 		91F08474125630ED003868A9 /* gattic_core.py in Resources */ = {isa = PBXBuildFile; fileRef = 91F08473125630ED003868A9 /* gattic_core.py */; };
@@ -63,6 +68,11 @@
 		91DA0DAC1257A511004D53E6 /* try3_blurred.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = try3_blurred.png; sourceTree = "<group>"; };
 		91DA0DAD1257A511004D53E6 /* try3_no_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = try3_no_back.png; sourceTree = "<group>"; };
 		91DA0DB81257A738004D53E6 /* try3_no_color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = try3_no_color.png; sourceTree = "<group>"; };
+		91DB2B7212668FB500E0956F /* gmail2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gmail2.png; path = resources/gmail2.png; sourceTree = "<group>"; };
+		91DB2B7A126697C700E0956F /* Gmailer_small.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = Gmailer_small.tiff; path = ../trash/Gmailer_small.tiff; sourceTree = SOURCE_ROOT; };
+		91DB2B7C126699E400E0956F /* logo_Goog_Balls.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo_Goog_Balls.png; path = ../trash/logo_Goog_Balls.png; sourceTree = SOURCE_ROOT; };
+		91DB2B891266A00500E0956F /* network.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = network.png; path = ../trash/network.png; sourceTree = SOURCE_ROOT; };
+		91DB2BD01266BB5600E0956F /* TableViewProvider.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = TableViewProvider.py; sourceTree = "<group>"; };
 		91F0838B12561498003868A9 /* helpers.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = helpers.py; sourceTree = "<group>"; };
 		91F083BC12561809003868A9 /* chatview.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = chatview.html; sourceTree = "<group>"; };
 		91F08473125630ED003868A9 /* gattic_core.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = gattic_core.py; sourceTree = "<group>"; };
@@ -88,6 +98,7 @@
 				7790198E0C07548A00326F66 /* chatmasalaAppDelegate.py */,
 				9120463D1254C1D3003F51D1 /* Controller_MainWindow.py */,
 				91F0838B12561498003868A9 /* helpers.py */,
+				91DB2BD01266BB5600E0956F /* TableViewProvider.py */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -146,6 +157,10 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				91DB2B891266A00500E0956F /* network.png */,
+				91DB2B7C126699E400E0956F /* logo_Goog_Balls.png */,
+				91DB2B7A126697C700E0956F /* Gmailer_small.tiff */,
+				91DB2B7212668FB500E0956F /* gmail2.png */,
 				91B4C6E81257E424001200E6 /* warningIcon.png */,
 				91DA0DB81257A738004D53E6 /* try3_no_color.png */,
 				91DA0DAC1257A511004D53E6 /* try3_blurred.png */,
@@ -252,6 +267,11 @@
 				91DA0DAF1257A511004D53E6 /* try3_no_back.png in Resources */,
 				91DA0DB91257A738004D53E6 /* try3_no_color.png in Resources */,
 				91B4C6E91257E424001200E6 /* warningIcon.png in Resources */,
+				91DB2B7312668FB500E0956F /* gmail2.png in Resources */,
+				91DB2B7B126697C700E0956F /* Gmailer_small.tiff in Resources */,
+				91DB2B7D126699E400E0956F /* logo_Goog_Balls.png in Resources */,
+				91DB2B8A1266A00500E0956F /* network.png in Resources */,
+				91DB2BD11266BB5600E0956F /* TableViewProvider.py in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

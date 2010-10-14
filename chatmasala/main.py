@@ -18,6 +18,7 @@ import AppKit
 # import modules containing classes required to start application and load MainMenu.nib
 import chatmasalaAppDelegate
 import Controller_MainWindow
+import TableViewProvider
 
 #base_path = os.path.join(os.path.dirname(os.getcwd()), 'Frameworks')
 # pass control to AppKit

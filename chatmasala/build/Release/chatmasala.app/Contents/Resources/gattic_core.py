@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 '''
     Gattic Core Functionality Module
     
@@ -14,12 +15,17 @@ import sqlite3
 from mechanize import Browser
 from BeautifulSoup import BeautifulSoup
 
+from helpers import *
+
 # global browser object
 br = Browser()
 br.addheaders = [('User-agent', 'Mozilla/5.0 (X11; U; Linux i686; en-US; \
               rv:1.9.0.1) Gecko/2008071615 Fedora/3.0.1-1.fc9 Firefox/3.0.1')]
 br.set_handle_robots(False)
 
+def get_connection():
+    return sqlite3.connect(applicationSupportFolder() + '/gattic.db')
+    
 def validate_auth(email, password):
     ''' validation for email address and password length '''
     def validateEmail(a):
@@ -47,10 +53,8 @@ def do_auth(callback, email, password):
     try:
         response = br.open("https://mail.google.com/mail")
     except urllib2.URLError, e:
-        print e.status
         return callback(1, "Can't reach Gmail, no routes available")
     except urllib2.HTTPError, e:
-        print e.status
         return callback(1, "Gmail couldn't fullfill the request, code - %s" % e.code)
     except:
         return callback(1, "Unable to sign-in due to connectivity issues")
@@ -82,5 +86,24 @@ def do_auth(callback, email, password):
     else:
         # invalid login
         return callback(1, "Wrong email adress or password")
+        
+
+def fetchLogs():
+    db_conn = get_connection()
+    db_cur = db_conn.cursor()
+
+    # here callback is more of a status indicator
+    try:
+        db_cur.execute("select * from chats order by date")
+    except:
+        # maybe the table isn't created yet
+        db_cur.execute('''create table chats
+                        (date text, sender text, chunk blob)''')
+        db_cur.execute("""insert into chats
+          values ('0000-01-01','Welcome to Gattic','<div class="msg">
+          <div><span style="display:block;float:left;color:#888">6:56 PM </span><span style="display:block;padding-left:6em"><span><span style="font-weight:bold">Gattic</span>: Hi there! <br /> Thank you for using Gattic</div></div>')""")
+        db_conn.commit()
+        db_cur.execute("select * from chats order by date")
+    return [r for r in db_cur]
     
     

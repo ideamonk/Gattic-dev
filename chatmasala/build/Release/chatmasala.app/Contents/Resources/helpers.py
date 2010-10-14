@@ -13,6 +13,10 @@ import threading
 
 APPNAME = "Gattic"
 
+# signal contstants
+SIG_ADDROW = 1
+SIG_DBERROR = 2
+
 def applicationBundlePath():
     return NSBundle.mainBundle().bundlePath()
     

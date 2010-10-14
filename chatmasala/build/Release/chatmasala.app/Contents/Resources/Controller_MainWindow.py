@@ -28,6 +28,7 @@ class Controller_MainWindow(NSWindowController):
     spinnerStatus = IBOutlet()
     labelStatus = IBOutlet()
     warningStatus = IBOutlet()
+    connectedStatus = IBOutlet()
     loginView = IBOutlet()
     gattic_username = IBOutlet()
     gattic_password = IBOutlet()
@@ -45,6 +46,10 @@ class Controller_MainWindow(NSWindowController):
     auth_login = None
     auth_pass = None
 
+    # db specific 
+    db_conn = gattic_core.get_connection()
+    db_cur = db_conn.cursor()
+    
     def showGattic(self):
         ''' Default view - Gattic '''
         self.overviewView.setFrameOrigin_(
@@ -104,7 +109,8 @@ class Controller_MainWindow(NSWindowController):
         self.spinnerStatus.setHidden_(YES)
         self.labelStatus.setNeedsDisplay_(YES)
         self.spinnerStatus.setNeedsDisplay_(YES)
-        
+
+        self.myWebView.setMainFrameURL_("file://" + applicationBundlePath() + "/Contents/Resources/chatview.html")
         # reset your own size
         self.mainWindow.setFrame_display_(
             NSRect(
@@ -148,12 +154,26 @@ class Controller_MainWindow(NSWindowController):
             )
         )
         
+        # dispatch a db fetcher for my attic
+        thread = NSThread.detachNewThreadSelector_toTarget_withObject_(
+                                                    'start_table_fill',self, None)
         # hide nondefault views
         self.showGattic()        
     
+    @AutoPooled
+    def start_table_fill(self):
+        pass
+        #gattic_core.fetchLogs(self.return_table_fill)
+    
+    def return_table_fill(self, status, msg):
+        ''' do something with the status '''
+        if status==SIG_ADDROW:
+            print msg
+        
     @IBAction
     def BtnSyncUpClick_(self, sender):
         print "SYNC"
+        
         
     @IBAction
     def BtnActionPanelClick_(self, sender):
@@ -195,14 +215,27 @@ class Controller_MainWindow(NSWindowController):
             # failed
             self.labelStatus.setStringValue_(msg)
             self.spinnerStatus.setHidden_(YES)
+            self.connectedStatus.setHidden_(YES)
             self.warningStatus.setHidden_(NO)
             self.toggleLoginControls(YES)
         elif code==2:
             #progress
             self.labelStatus.setStringValue_(msg)
+            self.connectedStatus.setHidden_(YES)
             self.warningStatus.setHidden_(YES)
             self.spinnerStatus.setHidden_(NO)
-        else:
-            self.spinnerStatus.setHidden_(NO)
+        elif code==0:
+            self.spinnerStatus.setHidden_(YES)
+            self.warningStatus.setHidden_(YES)
+            self.connectedStatus.setHidden_(NO)
             self.labelStatus.setStringValue_("Signed in as " + self.auth_login)
             print "PASSED"
+
+    @IBAction
+    def myTableGridClick_(self,sender):
+        if sender.selectedRow() != -1:
+            chunk = sender.dataSource().getRow(sender.selectedRow()).replace("'","\\'").replace("\n","")
+            print "foo('%s');" % (chunk.encode("utf-8"))
+            self.myWebView.stringByEvaluatingJavaScriptFromString_("foo('%s');" % (chunk))
+        else:
+            print "got click"
