@@ -34,6 +34,9 @@ class Controller_MainWindow(NSWindowController):
     gattic_password = IBOutlet()
     gattic_BtnLogin = IBOutlet()
     
+    BtnSignIn = IBOutlet()
+    BtnSyncUp = IBOutlet()
+    
     # default configs, etc
     MAIN_WIDTH = 524
     MAIN_HEIGHT = 470
@@ -82,8 +85,6 @@ class Controller_MainWindow(NSWindowController):
         self.helpView.setFrameOrigin_(
             NSPoint(0,self.mainWindow.contentView().frame().size.height)
         )
-        self.helpView.setHidden_(YES)
-        self.overviewView.setHidden_(YES)
     
     def showHelp(self):
         ''' Help View '''
@@ -174,7 +175,7 @@ class Controller_MainWindow(NSWindowController):
         
     @IBAction
     def BtnSyncUpClick_(self, sender):
-        self.myTableGrid.dataSource().insertInto("test","tester","foo bar")
+        #self.myTableGrid.dataSource().insertInto("test","tester","foo bar")
         print "SYNC"
         
         
@@ -193,24 +194,44 @@ class Controller_MainWindow(NSWindowController):
         self.gattic_username.setEnabled_(bool)
         self.gattic_BtnLogin.setEnabled_(bool)
         
+    def flipLoginControls(self, bool):
+        if bool:
+            self.gattic_BtnLogin.setTitle_("Sign Out")
+            self.BtnSyncUp.setEnabled_(YES)
+            self.gattic_BtnLogin.setEnabled_(YES)
+        else:
+            self.gattic_BtnLogin.setTitle_("Sign In")
+            self.BtnSyncUp.setEnabled_(NO)
+            self.gattic_BtnLogin.setEnabled_(YES)
+        
     @IBAction
     def BtnSignInClick_(self,sender):
-        self.auth_login = email = self.gattic_username.stringValue()
-        self.auth_pass = password = self.gattic_password.stringValue()
-        
-        if gattic_core.validate_auth(email, password):
-            # lock the buttons etc
-            self.toggleLoginControls(NO)
-            # activate status bar msg
-            self.spinnerStatus.startAnimation_(self)
-            # authenticate
-            thread = NSThread.detachNewThreadSelector_toTarget_withObject_(
-                                                    'start_do_auth',self, None)
+        if sender.title() == "Sign Out":
+            gattic_core.regenerate_browser()
+            self.flipLoginControls(False)
+            self.toggleLoginControls(True)
+            self.labelStatus.setStringValue_("")
+            self.spinnerStatus.setHidden_(YES)
+            self.warningStatus.setHidden_(YES)
+            self.connectedStatus.setHidden_(YES)
+            
         else:
-            print "rejected"
+            self.auth_login = email = self.gattic_username.stringValue()
+            self.auth_pass = password = self.gattic_password.stringValue()
+            
+            if gattic_core.validate_auth(email, password):
+                # lock the buttons etc
+                self.toggleLoginControls(NO)
+                # activate status bar msg
+                self.spinnerStatus.startAnimation_(self)
+                # authenticate
+                thread = NSThread.detachNewThreadSelector_toTarget_withObject_(
+                                                        'start_do_auth',self, None)
+            else:
+                print "rejected"
     
     @AutoPooled
-    def start_do_auth(self):        
+    def start_do_auth(self):
         gattic_core.do_auth(self.return_do_auth,self.auth_login,self.auth_pass)
         
     def return_do_auth(self,code, msg):
@@ -232,4 +253,6 @@ class Controller_MainWindow(NSWindowController):
             self.warningStatus.setHidden_(YES)
             self.connectedStatus.setHidden_(NO)
             self.labelStatus.setStringValue_("Signed in as " + self.auth_login)
+            self.flipLoginControls(True)
+            self.BtnSyncUp.setEnabled_(YES)
             print "PASSED"

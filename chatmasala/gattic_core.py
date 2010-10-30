@@ -12,13 +12,13 @@ import urllib
 import urllib2
 
 import sqlite3
-from mechanize import Browser
+import mechanize
 from BeautifulSoup import BeautifulSoup
 
 from helpers import *
 
 # global browser object
-br = Browser()
+br = mechanize.Browser(factory=mechanize.RobustFactory())
 br.addheaders = [('User-agent', 'Mozilla/5.0 (X11; U; Linux i686; en-US; \
               rv:1.9.0.1) Gecko/2008071615 Fedora/3.0.1-1.fc9 Firefox/3.0.1')]
 br.set_handle_robots(False)
@@ -46,14 +46,19 @@ def validate_auth(email, password):
     return validateEmail(email) and len(password.strip())>3
     
 
-def do_auth(callback, email, password):
-    ''' does authentication, prepares a browser with logged in state '''
-    callback(2,"Connecting to Gmail...")
+def regenerate_browser():
+    ''' regenerates a browser object, accessible by controllers '''
     global br
     
     del br              # start afresh to get rid of cookies, captcha, etc
-    br = Browser()
-    
+    br = mechanize.Browser(factory=mechanize.RobustFactory())
+
+
+def do_auth(callback, email, password):
+    ''' does authentication, prepares a browser with logged in state '''
+    callback(2,"Connecting to Gmail...")
+    regenerate_browser()
+        
     try:
         response = br.open("https://mail.google.com/mail")
     except urllib2.URLError, e:
@@ -70,17 +75,16 @@ def do_auth(callback, email, password):
     
     callback(2,"Signing in..")
     # Authentication
-    login_form["Email"] = email
-    login_form["Passwd"] = password
     try:
+        login_form["Email"] = email
+        login_form["Passwd"] = password
         br.open( login_form.click() )
-    except:
-        print br.title()
+    except (mechanize._mechanize.BrowserStateError, urllib2.URLError, urllib2.HTTPError):
         return callback(1, "Unable sign-in at this moment, please retry")
     callback(2,"Signing in...")
     try:
         br.open( "https://mail.google.com/mail/h/" )
-    except:
+    except (mechanize._mechanize.BrowserStateError, urllib2.URLError, urllib2.HTTPError):
         return callback(1, "Unable sign-in at this moment, please retry")
         
     try:
@@ -105,7 +109,7 @@ def fetchLogs():
         db_cur.execute('''create table chats
                         (date text, sender text, chunk blob)''')
         db_cur.execute("""insert into chats
-          values ('0000-01-01','Welcome to Gattic','<div class="msg">
+          values ('','Welcome to Gattic','<div class="msg">
           <div><span style="display:block;float:left;color:#888">6:56 PM </span><span style="display:block;padding-left:6em"><span><span style="font-weight:bold">Gattic</span>: Hi there! <br /> Thank you for using Gattic :)</div></div>')""")
         db_conn.commit()
         db_cur.execute("select date,sender from chats order by date")

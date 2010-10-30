@@ -1,7 +1,7 @@
 TGattic
 v7
 r0
-t308740177.523922
+t309563190.903650
 cCheck dependencies
 cProcessInfoPlistFile /Users/abhishekmishra/code/chatmasala/chatmasala/build/Release/chatmasala.app/Contents/Info.plist Info.plist
 cCopyStringsFile /Users/abhishekmishra/code/chatmasala/chatmasala/build/Release/chatmasala.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
@@ -239,9 +239,9 @@ t1286051053
 s3405
 
 N/Users/abhishekmishra/code/chatmasala/chatmasala/Controller_MainWindow.py
-c000000004CB6C87F0000000000001EB2
-t1287047295
-s7858
+c000000004CC35806000000000000221C
+t1287870470
+s8732
 
 N/Users/abhishekmishra/code/chatmasala/chatmasala/English.lproj/InfoPlist.strings
 c000000004CA794ED00000000000000BE
@@ -249,9 +249,9 @@ t1286051053
 s190
 
 N/Users/abhishekmishra/code/chatmasala/chatmasala/English.lproj/MainMenu.xib
-c000000004CB6C8CF00000000000352D1
-t1287047375
-s217809
+c000000004CC355EF0000000000035988
+t1287869935
+s219528
 
 N/Users/abhishekmishra/code/chatmasala/chatmasala/Gmail.png
 c000000004CA794ED0000000000000943
@@ -429,7 +429,7 @@ t1279454728
 s44
 
 N/Users/abhishekmishra/code/chatmasala/chatmasala/build/Release/chatmasala.app
-t1287047377
+t1287870390
 s102
 
 N/Users/abhishekmishra/code/chatmasala/chatmasala/build/Release/chatmasala.app.dSYM
@@ -453,16 +453,16 @@ t1286067422
 s3405
 
 N/Users/abhishekmishra/code/chatmasala/chatmasala/build/Release/chatmasala.app/Contents/Resources/Controller_MainWindow.py
-t1287047300
-s7858
+t1287870390
+s8731
 
 N/Users/abhishekmishra/code/chatmasala/chatmasala/build/Release/chatmasala.app/Contents/Resources/English.lproj/InfoPlist.strings
 t1286067422
 s190
 
 N/Users/abhishekmishra/code/chatmasala/chatmasala/build/Release/chatmasala.app/Contents/Resources/English.lproj/MainMenu.nib
-t1287047377
-s40348
+t1287869974
+s40536
 
 N/Users/abhishekmishra/code/chatmasala/chatmasala/build/Release/chatmasala.app/Contents/Resources/Gmail.png
 t1286067422
@@ -621,16 +621,16 @@ t1286046184
 s26
 
 N/Users/abhishekmishra/code/chatmasala/chatmasala/build/Release/chatmasala.app/Contents/Resources/chatview.html
-t1287034933
-s5526
+t1287288527
+s5519
 
 N/Users/abhishekmishra/code/chatmasala/chatmasala/build/Release/chatmasala.app/Contents/Resources/gattic.icns
 t1286067422
 s143364
 
 N/Users/abhishekmishra/code/chatmasala/chatmasala/build/Release/chatmasala.app/Contents/Resources/gattic_core.py
-t1287045862
-s4119
+t1287869732
+s4446
 
 N/Users/abhishekmishra/code/chatmasala/chatmasala/build/Release/chatmasala.app/Contents/Resources/gattic_table.py
 t1287029519
@@ -737,9 +737,9 @@ t1285945747
 s26
 
 N/Users/abhishekmishra/code/chatmasala/chatmasala/chatview.html
-c000000004CB6980B0000000000001596
-t1287034891
-s5526
+c000000004CBA76CB000000000000158F
+t1287288523
+s5519
 
 N/Users/abhishekmishra/code/chatmasala/chatmasala/gattic.icns
 c000000004CA794EF0000000000023004
@@ -747,9 +747,9 @@ t1286051055
 s143364
 
 N/Users/abhishekmishra/code/chatmasala/chatmasala/gattic_core.py
-c000000004CB6C2E30000000000001017
-t1287045859
-s4119
+c000000004CC35368000000000000115E
+t1287869288
+s4446
 
 N/Users/abhishekmishra/code/chatmasala/chatmasala/gattic_table.py
 c000000004CB682FD00000000000000A4
@@ -967,7 +967,7 @@ s981
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies308740177#308740177#0(0"0(0#1#0"8622440032#0"0#
+lSLF07#2@18"Check dependencies309563190#309563190#0(0"0(0#1#0"8599470112#0"0#
 
 CCompileC build/chatmasala.build/Release/Gattic.build/Objects-normal/i386/main.o /Users/abhishekmishra/code/chatmasala/chatmasala/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s307744198.539721
@@ -1009,8 +1009,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@63"Compile /Users/abhishekmishra/code/chatmasala/chatmasala/main.m307744198#307744201#0(0"0(0#0#55"/Users/abhishekmishra/code/chatmasala/chatmasala/main.m8612855392#1213"    cd /Users/abhishekmishra/code/chatmasala/chatmasala    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/abhishekmishra/code/chatmasala/chatmasala/build/chatmasala.build/Release/Gattic.build/chatmasala.hmap -F/Users/abhishekmishra/code/chatmasala/chatmasala/build/Release -I/Users/abhishekmishra/code/chatmasala/chatmasala/build/Release/include -I/Users/abhishekmishra/code/chatmasala/chatmasala/build/chatmasala.build/Release/Gattic.build/DerivedSources/x86_64 -I/Users/abhishekmishra/code/chatmasala/chatmasala/build/chatmasala.build/Release/Gattic.build/DerivedSources -include /var/folders/8Y/8Y9QavjcEvqRoYvV16qVDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/chatmasala_Prefix-hcmcvicpafjemwbuojugqaktxuct/chatmasala_Prefix.pch -c /Users/abhishekmishra/code/chatmasala/chatmasala/main.m -o /Users/abhishekmishra/code/chatmasala/chatmasala/build/chatmasala.build/Release/Gattic.build/Objects-normal/x86_64/main.o0#
 
 CCompileXIB /Users/abhishekmishra/code/chatmasala/chatmasala/English.lproj/MainMenu.xib
-s308740177.085988
-e308740177.519800
+s309562773.247801
+e309562774.387543
 r1
 xCompileXIB
 x/Users/abhishekmishra/code/chatmasala/chatmasala/English.lproj/MainMenu.xib
@@ -1018,10 +1018,10 @@ o/* com.apple.ibtool.document.notices */
 o/Users/abhishekmishra/code/chatmasala/chatmasala/English.lproj/MainMenu.xib:515: note: This view is clipping its content.
 o/* com.apple.ibtool.document.warnings */
 o/Users/abhishekmishra/code/chatmasala/chatmasala/English.lproj/MainMenu.xib:805: warning: The "Pane Splitter" divider style is not supported on Mac OS X versions prior to 10.6.
+o/Users/abhishekmishra/code/chatmasala/chatmasala/English.lproj/MainMenu.xib:755: warning: The property "Uses Single Line Mode" is not supported on Mac OS X versions prior to 10.6.
 o/Users/abhishekmishra/code/chatmasala/chatmasala/English.lproj/MainMenu.xib:494: warning: The property "Uses Single Line Mode" is not supported on Mac OS X versions prior to 10.6.
 o/Users/abhishekmishra/code/chatmasala/chatmasala/English.lproj/MainMenu.xib:640: warning: The 'prefsView' outlet of 'Controller Main Window' is connected to 'Custom View' but 'prefsView' is no longer defined on Controller_MainWindow.
-o/Users/abhishekmishra/code/chatmasala/chatmasala/English.lproj/MainMenu.xib:755: warning: The property "Uses Single Line Mode" is not supported on Mac OS X versions prior to 10.6.
-lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib308740177#308740177#0(974"/* com.apple.ibtool.document.notices *//Users/abhishekmishra/code/chatmasala/chatmasala/English.lproj/MainMenu.xib:515: note: This view is clipping its content./* com.apple.ibtool.document.warnings *//Users/abhishekmishra/code/chatmasala/chatmasala/English.lproj/MainMenu.xib:805: warning: The "Pane Splitter" divider style is not supported on Mac OS X versions prior to 10.6./Users/abhishekmishra/code/chatmasala/chatmasala/English.lproj/MainMenu.xib:494: warning: The property "Uses Single Line Mode" is not supported on Mac OS X versions prior to 10.6./Users/abhishekmishra/code/chatmasala/chatmasala/English.lproj/MainMenu.xib:640: warning: The 'prefsView' outlet of 'Controller Main Window' is connected to 'Custom View' but 'prefsView' is no longer defined on Controller_MainWindow./Users/abhishekmishra/code/chatmasala/chatmasala/English.lproj/MainMenu.xib:755: warning: The property "Uses Single Line Mode" is not supported on Mac OS X versions prior to 10.6.5(13@34"This view is clipping its content.308740177#18446744073709551615#0#0(6@75"/Users/abhishekmishra/code/chatmasala/chatmasala/English.lproj/MainMenu.xib308740175#515#0#515#0#0"0(22@86"The "Pane Splitter" divider style is not supported on Mac OS X versions prior to 10.6.308740177#18446744073709551615#0#0(6@75"/Users/abhishekmishra/code/chatmasala/chatmasala/English.lproj/MainMenu.xib308740175#805#0#805#0#0"0(22@89"The property "Uses Single Line Mode" is not supported on Mac OS X versions prior to 10.6.308740177#18446744073709551615#0#0(6@75"/Users/abhishekmishra/code/chatmasala/chatmasala/English.lproj/MainMenu.xib308740175#494#0#494#0#0"0(22@143"The 'prefsView' outlet of 'Controller Main Window' is connected to 'Custom View' but 'prefsView' is no longer defined on Controller_MainWindow.308740177#18446744073709551615#0#0(6@75"/Users/abhishekmishra/code/chatmasala/chatmasala/English.lproj/MainMenu.xib308740175#640#0#640#0#0"0(22@89"The property "Uses Single Line Mode" is not supported on Mac OS X versions prior to 10.6.308740177#18446744073709551615#0#0(6@75"/Users/abhishekmishra/code/chatmasala/chatmasala/English.lproj/MainMenu.xib308740175#755#0#755#0#0"0(0#0#75"/Users/abhishekmishra/code/chatmasala/chatmasala/English.lproj/MainMenu.xib8619818144#399"    cd /Users/abhishekmishra/code/chatmasala/chatmasala    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/abhishekmishra/code/chatmasala/chatmasala/build/Release/chatmasala.app/Contents/Resources/English.lproj/MainMenu.nib /Users/abhishekmishra/code/chatmasala/chatmasala/English.lproj/MainMenu.xib --sdk /Developer/SDKs/MacOSX10.5.sdk0#
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib309562773#309562774#0(974"/* com.apple.ibtool.document.notices *//Users/abhishekmishra/code/chatmasala/chatmasala/English.lproj/MainMenu.xib:515: note: This view is clipping its content./* com.apple.ibtool.document.warnings *//Users/abhishekmishra/code/chatmasala/chatmasala/English.lproj/MainMenu.xib:805: warning: The "Pane Splitter" divider style is not supported on Mac OS X versions prior to 10.6./Users/abhishekmishra/code/chatmasala/chatmasala/English.lproj/MainMenu.xib:755: warning: The property "Uses Single Line Mode" is not supported on Mac OS X versions prior to 10.6./Users/abhishekmishra/code/chatmasala/chatmasala/English.lproj/MainMenu.xib:494: warning: The property "Uses Single Line Mode" is not supported on Mac OS X versions prior to 10.6./Users/abhishekmishra/code/chatmasala/chatmasala/English.lproj/MainMenu.xib:640: warning: The 'prefsView' outlet of 'Controller Main Window' is connected to 'Custom View' but 'prefsView' is no longer defined on Controller_MainWindow.5(13@34"This view is clipping its content.309562774#18446744073709551615#0#0(6@75"/Users/abhishekmishra/code/chatmasala/chatmasala/English.lproj/MainMenu.xib309562735#515#0#515#0#0"0(22@86"The "Pane Splitter" divider style is not supported on Mac OS X versions prior to 10.6.309562774#18446744073709551615#0#0(6@75"/Users/abhishekmishra/code/chatmasala/chatmasala/English.lproj/MainMenu.xib309562735#805#0#805#0#0"0(22@89"The property "Uses Single Line Mode" is not supported on Mac OS X versions prior to 10.6.309562774#18446744073709551615#0#0(6@75"/Users/abhishekmishra/code/chatmasala/chatmasala/English.lproj/MainMenu.xib309562735#755#0#755#0#0"0(22@89"The property "Uses Single Line Mode" is not supported on Mac OS X versions prior to 10.6.309562774#18446744073709551615#0#0(6@75"/Users/abhishekmishra/code/chatmasala/chatmasala/English.lproj/MainMenu.xib309562735#494#0#494#0#0"0(22@143"The 'prefsView' outlet of 'Controller Main Window' is connected to 'Custom View' but 'prefsView' is no longer defined on Controller_MainWindow.309562774#18446744073709551615#0#0(6@75"/Users/abhishekmishra/code/chatmasala/chatmasala/English.lproj/MainMenu.xib309562735#640#0#640#0#0"0(0#0#75"/Users/abhishekmishra/code/chatmasala/chatmasala/English.lproj/MainMenu.xib8616296640#399"    cd /Users/abhishekmishra/code/chatmasala/chatmasala    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/abhishekmishra/code/chatmasala/chatmasala/build/Release/chatmasala.app/Contents/Resources/English.lproj/MainMenu.nib /Users/abhishekmishra/code/chatmasala/chatmasala/English.lproj/MainMenu.xib --sdk /Developer/SDKs/MacOSX10.5.sdk0#
 
 CCopyStringsFile /Users/abhishekmishra/code/chatmasala/chatmasala/build/Release/chatmasala.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
 s307760222.256868
@@ -1051,13 +1051,13 @@ xChat.png
 lSLF07#2@13"Copy Chat.png307760222#307760222#0(0"0(0#0#57"/Users/abhishekmishra/code/chatmasala/chatmasala/Chat.png8622091680#380"    cd /Users/abhishekmishra/code/chatmasala/chatmasala    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/abhishekmishra/code/chatmasala/chatmasala/Chat.png /Users/abhishekmishra/code/chatmasala/chatmasala/build/Release/chatmasala.app/Contents/Resources0#
 
 CCpResource build/Release/chatmasala.app/Contents/Resources/Controller_MainWindow.py Controller_MainWindow.py
-s308740100.687176
-e308740100.692648
+s309563190.859603
+e309563190.900376
 r1
 xCpResource
 xbuild/Release/chatmasala.app/Contents/Resources/Controller_MainWindow.py
 xController_MainWindow.py
-lSLF07#2@29"Copy Controller_MainWindow.py308740100#308740100#0(0"0(0#0#73"/Users/abhishekmishra/code/chatmasala/chatmasala/Controller_MainWindow.py8618832640#396"    cd /Users/abhishekmishra/code/chatmasala/chatmasala    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/abhishekmishra/code/chatmasala/chatmasala/Controller_MainWindow.py /Users/abhishekmishra/code/chatmasala/chatmasala/build/Release/chatmasala.app/Contents/Resources0#
+lSLF07#2@29"Copy Controller_MainWindow.py309563190#309563190#0(0"0(0#0#73"/Users/abhishekmishra/code/chatmasala/chatmasala/Controller_MainWindow.py8612809760#396"    cd /Users/abhishekmishra/code/chatmasala/chatmasala    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/abhishekmishra/code/chatmasala/chatmasala/Controller_MainWindow.py /Users/abhishekmishra/code/chatmasala/chatmasala/build/Release/chatmasala.app/Contents/Resources0#
 
 CCpResource build/Release/chatmasala.app/Contents/Resources/Gmail.png Gmail.png
 s307760222.293094
@@ -1576,13 +1576,13 @@ xchatmasala_core.py
 lSLF07#2@23"Copy chatmasala_core.py307738984#307738984#0(0"0(0#0#67"/Users/abhishekmishra/code/chatmasala/chatmasala/chatmasala_core.py8637552800#390"    cd /Users/abhishekmishra/code/chatmasala/chatmasala    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/abhishekmishra/code/chatmasala/chatmasala/chatmasala_core.py /Users/abhishekmishra/code/chatmasala/chatmasala/build/Release/chatmasala.app/Contents/Resources0#
 
 CCpResource build/Release/chatmasala.app/Contents/Resources/chatview.html chatview.html
-s308727733.595085
-e308727733.603665
+s308981327.279949
+e308981327.616421
 r1
 xCpResource
 xbuild/Release/chatmasala.app/Contents/Resources/chatview.html
 xchatview.html
-lSLF07#2@18"Copy chatview.html308727733#308727733#0(0"0(0#0#62"/Users/abhishekmishra/code/chatmasala/chatmasala/chatview.html8614402848#385"    cd /Users/abhishekmishra/code/chatmasala/chatmasala    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/abhishekmishra/code/chatmasala/chatmasala/chatview.html /Users/abhishekmishra/code/chatmasala/chatmasala/build/Release/chatmasala.app/Contents/Resources0#
+lSLF07#2@18"Copy chatview.html308981327#308981327#0(0"0(0#0#62"/Users/abhishekmishra/code/chatmasala/chatmasala/chatview.html27866512328294512#385"    cd /Users/abhishekmishra/code/chatmasala/chatmasala    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/abhishekmishra/code/chatmasala/chatmasala/chatview.html /Users/abhishekmishra/code/chatmasala/chatmasala/build/Release/chatmasala.app/Contents/Resources0#
 
 CCpResource build/Release/chatmasala.app/Contents/Resources/gattic.icns gattic.icns
 s307760222.455720
@@ -1594,13 +1594,13 @@ xgattic.icns
 lSLF07#2@16"Copy gattic.icns307760222#307760222#0(0"0(0#0#60"/Users/abhishekmishra/code/chatmasala/chatmasala/gattic.icns8622323648#383"    cd /Users/abhishekmishra/code/chatmasala/chatmasala    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/abhishekmishra/code/chatmasala/chatmasala/gattic.icns /Users/abhishekmishra/code/chatmasala/chatmasala/build/Release/chatmasala.app/Contents/Resources0#
 
 CCpResource build/Release/chatmasala.app/Contents/Resources/gattic_core.py gattic_core.py
-s308738662.056294
-e308738662.062363
+s309562532.113328
+e309562532.188291
 r1
 xCpResource
 xbuild/Release/chatmasala.app/Contents/Resources/gattic_core.py
 xgattic_core.py
-lSLF07#2@19"Copy gattic_core.py308738662#308738662#0(0"0(0#0#63"/Users/abhishekmishra/code/chatmasala/chatmasala/gattic_core.py8619642048#386"    cd /Users/abhishekmishra/code/chatmasala/chatmasala    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/abhishekmishra/code/chatmasala/chatmasala/gattic_core.py /Users/abhishekmishra/code/chatmasala/chatmasala/build/Release/chatmasala.app/Contents/Resources0#
+lSLF07#2@19"Copy gattic_core.py309562532#309562532#0(0"0(0#0#63"/Users/abhishekmishra/code/chatmasala/chatmasala/gattic_core.py8613268864#386"    cd /Users/abhishekmishra/code/chatmasala/chatmasala    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/abhishekmishra/code/chatmasala/chatmasala/gattic_core.py /Users/abhishekmishra/code/chatmasala/chatmasala/build/Release/chatmasala.app/Contents/Resources0#
 
 CCpResource build/Release/chatmasala.app/Contents/Resources/gattic_table.py gattic_table.py
 s308722319.034486
@@ -1799,10 +1799,10 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@32"Precompile chatmasala_Prefix.pch307744183#307744198#0(0"0(0#0#70"/Users/abhishekmishra/code/chatmasala/chatmasala/chatmasala_Prefix.pch8602464448#1108"    cd /Users/abhishekmishra/code/chatmasala/chatmasala    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/abhishekmishra/code/chatmasala/chatmasala/build/chatmasala.build/Release/Gattic.build/chatmasala.hmap -F/Users/abhishekmishra/code/chatmasala/chatmasala/build/Release -I/Users/abhishekmishra/code/chatmasala/chatmasala/build/Release/include -I/Users/abhishekmishra/code/chatmasala/chatmasala/build/chatmasala.build/Release/Gattic.build/DerivedSources/x86_64 -I/Users/abhishekmishra/code/chatmasala/chatmasala/build/chatmasala.build/Release/Gattic.build/DerivedSources -c /Users/abhishekmishra/code/chatmasala/chatmasala/chatmasala_Prefix.pch -o /var/folders/8Y/8Y9QavjcEvqRoYvV16qVDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/chatmasala_Prefix-hcmcvicpafjemwbuojugqaktxuct/chatmasala_Prefix.pch.gch0#
 
 CTouch /Users/abhishekmishra/code/chatmasala/chatmasala/build/Release/chatmasala.app
-s308740177.520860
-e308740177.523827
+s309563190.901178
+e309563190.903600
 r1
 xTouch
 x/Users/abhishekmishra/code/chatmasala/chatmasala/build/Release/chatmasala.app
-lSLF07#2@83"Touch /Users/abhishekmishra/code/chatmasala/chatmasala/build/Release/chatmasala.app308740177#308740177#0(0"0(0#0#0"8618288928#156"    cd /Users/abhishekmishra/code/chatmasala/chatmasala    /usr/bin/touch -c /Users/abhishekmishra/code/chatmasala/chatmasala/build/Release/chatmasala.app0#
+lSLF07#2@83"Touch /Users/abhishekmishra/code/chatmasala/chatmasala/build/Release/chatmasala.app309563190#309563190#0(0"0(0#0#0"8614774464#156"    cd /Users/abhishekmishra/code/chatmasala/chatmasala    /usr/bin/touch -c /Users/abhishekmishra/code/chatmasala/chatmasala/build/Release/chatmasala.app0#
 
