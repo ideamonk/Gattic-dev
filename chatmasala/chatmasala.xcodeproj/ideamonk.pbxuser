@@ -4,6 +4,9 @@
 		activeBuildConfigurationName = Debug;
 		activeExecutable = B735183112E04F950026B162 /* Gattic */;
 		activeTarget = 8D1107260486CEB800E47090 /* Gattic */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* Gattic */,
+		);
 		codeSenseManager = B735184912E04FAE0026B162 /* Code sense */;
 		executables = (
 			B735183112E04F950026B162 /* Gattic */,
@@ -14,7 +17,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					341,
+					940,
 					20,
 					48.16259765625,
 					43,
@@ -31,11 +34,27 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 316690327;
-			PBXWorkspaceStateSaveDate = 316690327;
+			PBXPerProjectTemplateStateSaveDate = 316695345;
+			PBXWorkspaceStateSaveDate = 316695345;
+		};
+		perUserProjectItems = {
+			B735186F12E063250026B162 = B735186F12E063250026B162 /* PBXTextBookmark */;
+			B735187012E063250026B162 = B735187012E063250026B162 /* PBXTextBookmark */;
+			B735187112E063250026B162 = B735187112E063250026B162 /* PBXTextBookmark */;
+			B735187212E063250026B162 = B735187212E063250026B162 /* PBXTextBookmark */;
+			B735187312E063250026B162 = B735187312E063250026B162 /* PBXTextBookmark */;
+			B735187412E063250026B162 = B735187412E063250026B162 /* PBXTextBookmark */;
+			B735187512E063250026B162 = B735187512E063250026B162 /* PBXTextBookmark */;
 		};
 		sourceControlManager = B735184812E04FAE0026B162 /* Source Control */;
 		userBuildSettings = {
+		};
+	};
+	7790198E0C07548A00326F66 /* chatmasalaAppDelegate.py */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1118, 564}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 373}";
 		};
 	};
 	8D1107260486CEB800E47090 /* Gattic */ = {
@@ -43,6 +62,41 @@
 		executables = (
 			B735183112E04F950026B162 /* Gattic */,
 		);
+	};
+	9120463D1254C1D3003F51D1 /* Controller_MainWindow.py */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1118, 3549}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{707, 1453}";
+		};
+	};
+	91DB2BD01266BB5600E0956F /* TableViewProvider.py */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1118, 728}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1376}";
+		};
+	};
+	91F0838B12561498003868A9 /* helpers.py */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1118, 621}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1128}";
+		};
+	};
+	91F083BC12561809003868A9 /* chatview.html */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {30427, 585}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 5485}";
+		};
+	};
+	91F08473125630ED003868A9 /* gattic_core.py */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1699, 1716}}";
+			sepNavSelRange = "{4211, 0}";
+			sepNavVisRange = "{2616, 1829}";
+		};
 	};
 	B735183112E04F950026B162 /* Gattic */ = {
 		isa = PBXExecutable;
@@ -88,5 +142,75 @@
 	B735184912E04FAE0026B162 /* Code sense */ = {
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
+	};
+	B735186F12E063250026B162 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 91F083BC12561809003868A9 /* chatview.html */;
+		name = "chatview.html: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 5485;
+		vrLoc = 0;
+	};
+	B735187012E063250026B162 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7790198E0C07548A00326F66 /* chatmasalaAppDelegate.py */;
+		name = "chatmasalaAppDelegate.py: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 373;
+		vrLoc = 0;
+	};
+	B735187112E063250026B162 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 91F0838B12561498003868A9 /* helpers.py */;
+		name = "helpers.py: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1128;
+		vrLoc = 0;
+	};
+	B735187212E063250026B162 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 91DB2BD01266BB5600E0956F /* TableViewProvider.py */;
+		name = "TableViewProvider.py: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1376;
+		vrLoc = 0;
+	};
+	B735187312E063250026B162 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9120463D1254C1D3003F51D1 /* Controller_MainWindow.py */;
+		name = "Controller_MainWindow.py: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1467;
+		vrLoc = 838;
+	};
+	B735187412E063250026B162 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 91F08473125630ED003868A9 /* gattic_core.py */;
+		name = "gattic_core.py: 124";
+		rLen = 0;
+		rLoc = 4211;
+		rType = 0;
+		vrLen = 1829;
+		vrLoc = 2616;
+	};
+	B735187512E063250026B162 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 91F08473125630ED003868A9 /* gattic_core.py */;
+		name = "gattic_core.py: 124";
+		rLen = 0;
+		rLoc = 4211;
+		rType = 0;
+		vrLen = 1298;
+		vrLoc = 0;
 	};
 }

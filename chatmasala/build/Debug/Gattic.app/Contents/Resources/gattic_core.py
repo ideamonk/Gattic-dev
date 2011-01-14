@@ -100,18 +100,21 @@ def do_auth(callback, email, password):
         return callback(1, "Wrong email adress or password")
         
 
+def initTable():
+    db_cur.execute('''create table chats
+                    (date text, sender text, chunk blob)''')
+    db_cur.execute("""insert into chats
+      values ('','Welcome to Gattic','<div class="msg">
+      <div><span style="display:block;float:left;color:#888">6:56 PM </span><span style="display:block;padding-left:6em"><span><span style="font-weight:bold">Gattic</span>: Hi there! <br /> Thank you for using Gattic :)</div></div>')""")
+    db_conn.commit()
+
 def fetchLogs():
     # here callback is more of a status indicator
     try:
         db_cur.execute("select date,sender from chats order by date")
     except:
         # maybe the table isn't created yet
-        db_cur.execute('''create table chats
-                        (date text, sender text, chunk blob)''')
-        db_cur.execute("""insert into chats
-          values ('','Welcome to Gattic','<div class="msg">
-          <div><span style="display:block;float:left;color:#888">6:56 PM </span><span style="display:block;padding-left:6em"><span><span style="font-weight:bold">Gattic</span>: Hi there! <br /> Thank you for using Gattic :)</div></div>')""")
-        db_conn.commit()
+        initTable()
         db_cur.execute("select date,sender from chats order by date")
     return [ list(r)+[None] for r in db_cur]
     

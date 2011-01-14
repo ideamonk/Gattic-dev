@@ -1,7 +1,7 @@
 TGattic
 v7
 r0
-t316690828.100348
+t316697061.211815
 cCheck dependencies
 cProcessInfoPlistFile /Users/ideamonk/Code/Gattic-dev/chatmasala/build/Debug/Gattic.app/Contents/Info.plist Info.plist
 cCopyStringsFile /Users/ideamonk/Code/Gattic-dev/chatmasala/build/Debug/Gattic.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
@@ -33,8 +33,8 @@ cCpResource build/Debug/Gattic.app/Contents/Resources/TableViewProvider.py Table
 cProcessPCH /var/folders/51/51FdWfoHESe2bRprVoCR2E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/chatmasala_Prefix-fkiatztwbjfvdvfloczgfxkhvjbt/chatmasala_Prefix.pch.gch chatmasala_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
 cProcessPCH /var/folders/51/51FdWfoHESe2bRprVoCR2E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/chatmasala_Prefix-fxpetzshnxgoejebshmkvsftdsrs/chatmasala_Prefix.pch.gch chatmasala_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_2
 cCompileC build/chatmasala.build/Debug/Gattic.build/Objects-normal/i386/main.o /Users/ideamonk/Code/Gattic-dev/chatmasala/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/chatmasala.build/Debug/Gattic.build/Objects-normal/ppc/main.o /Users/ideamonk/Code/Gattic-dev/chatmasala/main.m normal ppc objective-c com.apple.compilers.gcc.4_2
 cLd /Users/ideamonk/Code/Gattic-dev/chatmasala/build/chatmasala.build/Debug/Gattic.build/Objects-normal/i386/Gattic normal i386
+cCompileC build/chatmasala.build/Debug/Gattic.build/Objects-normal/ppc/main.o /Users/ideamonk/Code/Gattic-dev/chatmasala/main.m normal ppc objective-c com.apple.compilers.gcc.4_2
 cLd /Users/ideamonk/Code/Gattic-dev/chatmasala/build/chatmasala.build/Debug/Gattic.build/Objects-normal/ppc/Gattic normal ppc
 cCreateUniversalBinary /Users/ideamonk/Code/Gattic-dev/chatmasala/build/Debug/Gattic.app/Contents/MacOS/Gattic normal "i386 ppc"
 cTouch /Users/ideamonk/Code/Gattic-dev/chatmasala/build/Debug/Gattic.app
@@ -484,7 +484,7 @@ t1294993551
 s3222
 
 N/Users/ideamonk/Code/Gattic-dev/chatmasala/build/Debug/Gattic.app
-t1294998028
+t1295004261
 s102
 
 N/Users/ideamonk/Code/Gattic-dev/chatmasala/build/Debug/Gattic.app/Contents/Info.plist
@@ -555,13 +555,17 @@ N/Users/ideamonk/Code/Gattic-dev/chatmasala/build/Debug/Gattic.app/Contents/Reso
 t1294998027
 s5519
 
+N/Users/ideamonk/Code/Gattic-dev/chatmasala/build/Debug/Gattic.app/Contents/Resources/db_helper.py
+t2
+s0
+
 N/Users/ideamonk/Code/Gattic-dev/chatmasala/build/Debug/Gattic.app/Contents/Resources/gattic.icns
 t1294998027
 s143364
 
 N/Users/ideamonk/Code/Gattic-dev/chatmasala/build/Debug/Gattic.app/Contents/Resources/gattic_core.py
-t1294998027
-s4446
+t1295004261
+s4460
 
 N/Users/ideamonk/Code/Gattic-dev/chatmasala/build/Debug/Gattic.app/Contents/Resources/gmail2.png
 t1294998027
@@ -650,15 +654,20 @@ c000000004D300891000000000000158F
 t1294993553
 s5519
 
+N/Users/ideamonk/Code/Gattic-dev/chatmasala/db_helper.py
+c000000004D302BFA00000000000000A4
+t1295002618
+s164
+
 N/Users/ideamonk/Code/Gattic-dev/chatmasala/gattic.icns
 c000000004D3008910000000000023004
 t1294993553
 s143364
 
 N/Users/ideamonk/Code/Gattic-dev/chatmasala/gattic_core.py
-c000000004D300891000000000000115E
-t1294993553
-s4446
+c000000004D303260000000000000116C
+t1295004256
+s4460
 
 N/Users/ideamonk/Code/Gattic-dev/chatmasala/helpers.py
 c000000004D3008910000000000000468
@@ -730,7 +739,7 @@ s981
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies316690827#316690827#0(0"0(0#1#0"8603809504#0"0#
+lSLF07#2@18"Check dependencies316697061#316697061#0(0"0(0#1#0"8612736768#0"0#
 
 CCompileC build/chatmasala.build/Debug/Gattic.build/Objects-normal/i386/main.o /Users/abhishekmishra/code/chatmasala/chatmasala/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
 r0
@@ -908,6 +917,9 @@ xbuild/Debug/Gattic.app/Contents/Resources/chatview.html
 xchatview.html
 lSLF07#2@18"Copy chatview.html316690827#316690827#0(0"0(0#0#56"/Users/ideamonk/Code/Gattic-dev/chatmasala/chatview.html8604115424#340"    cd /Users/ideamonk/Code/Gattic-dev/chatmasala    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/ideamonk/Code/Gattic-dev/chatmasala/chatview.html /Users/ideamonk/Code/Gattic-dev/chatmasala/build/Debug/Gattic.app/Contents/Resources0#
 
+CCpResource build/Debug/Gattic.app/Contents/Resources/db_helper.py db_helper.py
+r0
+
 CCpResource build/Debug/Gattic.app/Contents/Resources/gattic.icns gattic.icns
 s316690827.352918
 e316690827.377260
@@ -918,13 +930,13 @@ xgattic.icns
 lSLF07#2@16"Copy gattic.icns316690827#316690827#0(0"0(0#0#54"/Users/ideamonk/Code/Gattic-dev/chatmasala/gattic.icns8604024160#338"    cd /Users/ideamonk/Code/Gattic-dev/chatmasala    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/ideamonk/Code/Gattic-dev/chatmasala/gattic.icns /Users/ideamonk/Code/Gattic-dev/chatmasala/build/Debug/Gattic.app/Contents/Resources0#
 
 CCpResource build/Debug/Gattic.app/Contents/Resources/gattic_core.py gattic_core.py
-s316690827.351008
-e316690827.377582
+s316697061.200483
+e316697061.206641
 r1
 xCpResource
 xbuild/Debug/Gattic.app/Contents/Resources/gattic_core.py
 xgattic_core.py
-lSLF07#2@19"Copy gattic_core.py316690827#316690827#0(0"0(0#0#57"/Users/ideamonk/Code/Gattic-dev/chatmasala/gattic_core.py8604098336#341"    cd /Users/ideamonk/Code/Gattic-dev/chatmasala    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/ideamonk/Code/Gattic-dev/chatmasala/gattic_core.py /Users/ideamonk/Code/Gattic-dev/chatmasala/build/Debug/Gattic.app/Contents/Resources0#
+lSLF07#2@19"Copy gattic_core.py316697061#316697061#0(0"0(0#0#57"/Users/ideamonk/Code/Gattic-dev/chatmasala/gattic_core.py8615431392#341"    cd /Users/ideamonk/Code/Gattic-dev/chatmasala    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/ideamonk/Code/Gattic-dev/chatmasala/gattic_core.py /Users/ideamonk/Code/Gattic-dev/chatmasala/build/Debug/Gattic.app/Contents/Resources0#
 
 CCpResource build/Debug/Gattic.app/Contents/Resources/gmail2.png resources/gmail2.png
 s316690827.377677
@@ -1172,10 +1184,10 @@ CTouch /Users/abhishekmishra/code/chatmasala/chatmasala/build/Debug/chatmasala.a
 r0
 
 CTouch /Users/ideamonk/Code/Gattic-dev/chatmasala/build/Debug/Gattic.app
-s316690828.096692
-e316690828.100303
+s316697061.208401
+e316697061.211756
 r1
 xTouch
 x/Users/ideamonk/Code/Gattic-dev/chatmasala/build/Debug/Gattic.app
-lSLF07#2@71"Touch /Users/ideamonk/Code/Gattic-dev/chatmasala/build/Debug/Gattic.app316690828#316690828#0(0"0(0#0#0"8603814624#138"    cd /Users/ideamonk/Code/Gattic-dev/chatmasala    /usr/bin/touch -c /Users/ideamonk/Code/Gattic-dev/chatmasala/build/Debug/Gattic.app0#
+lSLF07#2@71"Touch /Users/ideamonk/Code/Gattic-dev/chatmasala/build/Debug/Gattic.app316697061#316697061#0(0"0(0#0#0"8615733728#138"    cd /Users/ideamonk/Code/Gattic-dev/chatmasala    /usr/bin/touch -c /Users/ideamonk/Code/Gattic-dev/chatmasala/build/Debug/Gattic.app0#
 
