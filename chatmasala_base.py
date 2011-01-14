@@ -86,7 +86,9 @@ if __name__ == '__main__':
         for row in list_rows:
             link = row.find('td').findNext('td').findNext('td').a['href']
             expanded_link = "/mail/h/" + link + '&d=e'
+            msg_id = expanded_link.split("th=")[1].split("&")[0]
             chat_soup = BeautifulSoup( br.open(expanded_link).read() )
+            msg_timestamp = chat_soup.find('a', {'name':'m_'+msg_id}).findNext('table').find('td').findNext('td').contents[0]
             #list_xml = parse(br.open(expanded_link)).getroot() # TODO 
             #list_xml.xpath("//table[2]/tr/td[2]/table/tr/td[2]/table[4]/tr/td/table/tr[4]/td/div/div")[0].text_content()
             chat_table = chat_soup.findAll('table', {'cellpadding':'1', 'cellspacing':'0', 
@@ -100,7 +102,7 @@ if __name__ == '__main__':
             for div in chat_divs:
                 #for msg_line in div.findAll('div'):
                 #    print strip_ml_tags(msg_line.encode("utf-8").strip())
-                print div
+                print str(div)
             print 
             print
         list_page = br.open("/mail/h/?s=q&q=subject:(\"Chat+with\")&st=%s" % search_start).read()

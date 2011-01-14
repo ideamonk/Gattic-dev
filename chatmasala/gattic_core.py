@@ -102,7 +102,7 @@ def do_auth(callback, email, password):
 
 def initTable():
     db_cur.execute('''create table chats
-                    (date text, sender text, chunk blob)''')
+                    (date text, sender text, id text, chunk blob)''')
     db_cur.execute("""insert into chats
       values ('','Welcome to Gattic','<div class="msg">
       <div><span style="display:block;float:left;color:#888">6:56 PM </span><span style="display:block;padding-left:6em"><span><span style="font-weight:bold">Gattic</span>: Hi there! <br /> Thank you for using Gattic :)</div></div>')""")
