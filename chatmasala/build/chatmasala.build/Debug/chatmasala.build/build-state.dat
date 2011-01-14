@@ -1,699 +1,0 @@
-Tchatmasala
-v7
-r0
-t307738701.164064
-cCheck dependencies
-cProcessInfoPlistFile /Users/abhishekmishra/code/chatmasala/chatmasala/build/Debug/chatmasala.app/Contents/Info.plist Info.plist
-cCopyStringsFile /Users/abhishekmishra/code/chatmasala/chatmasala/build/Debug/chatmasala.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
-cCpResource build/Debug/chatmasala.app/Contents/Resources/main.py main.py
-cCpResource build/Debug/chatmasala.app/Contents/Resources/chatmasalaAppDelegate.py chatmasalaAppDelegate.py
-cCompileXIB /Users/abhishekmishra/code/chatmasala/chatmasala/English.lproj/MainMenu.xib
-cCpResource build/Debug/chatmasala.app/Contents/Resources/chatmasala.png chatmasala.png
-cCpResource build/Debug/chatmasala.app/Contents/Resources/Chat.png Chat.png
-cCpResource build/Debug/chatmasala.app/Contents/Resources/Gmail.png Gmail.png
-cCpResource build/Debug/chatmasala.app/Contents/Resources/Help.png Help.png
-cCpResource build/Debug/chatmasala.app/Contents/Resources/Note.png Note.png
-cCpResource build/Debug/chatmasala.app/Contents/Resources/Statistics.png Statistics.png
-cCpResource build/Debug/chatmasala.app/Contents/Resources/Upwards.png Upwards.png
-cCpResource build/Debug/chatmasala.app/Contents/Resources/Controller_MainWindow.py Controller_MainWindow.py
-cCpResource build/Debug/chatmasala.app/Contents/Resources/helpers.py helpers.py
-cCpResource build/Debug/chatmasala.app/Contents/Resources/chatview.html chatview.html
-cCpResource build/Debug/chatmasala.app/Contents/Resources/chatmasala_core.py chatmasala_core.py
-cCpResource build/Debug/chatmasala.app/Contents/Resources/gattic.icns gattic.icns
-cCpResource build/Debug/chatmasala.app/Contents/Resources/try3_final_512.png try3_final_512.png
-cCpResource build/Debug/chatmasala.app/Contents/Resources/try3_blurred.png try3_blurred.png
-cCpResource build/Debug/chatmasala.app/Contents/Resources/try3_no_back.png try3_no_back.png
-cCpResource build/Debug/chatmasala.app/Contents/Resources/try3_no_color.png try3_no_color.png
-cProcessPCH /var/folders/8Y/8Y9QavjcEvqRoYvV16qVDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/chatmasala_Prefix-fkiatztwbjfvdvfloczgfxkhvjbt/chatmasala_Prefix.pch.gch chatmasala_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cProcessPCH /var/folders/8Y/8Y9QavjcEvqRoYvV16qVDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/chatmasala_Prefix-fxpetzshnxgoejebshmkvsftdsrs/chatmasala_Prefix.pch.gch chatmasala_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_2
-cCompileC build/chatmasala.build/Debug/chatmasala.build/Objects-normal/i386/main.o /Users/abhishekmishra/code/chatmasala/chatmasala/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/abhishekmishra/code/chatmasala/chatmasala/build/chatmasala.build/Debug/chatmasala.build/Objects-normal/i386/chatmasala normal i386
-cCompileC build/chatmasala.build/Debug/chatmasala.build/Objects-normal/ppc/main.o /Users/abhishekmishra/code/chatmasala/chatmasala/main.m normal ppc objective-c com.apple.compilers.gcc.4_2
-cLd /Users/abhishekmishra/code/chatmasala/chatmasala/build/chatmasala.build/Debug/chatmasala.build/Objects-normal/ppc/chatmasala normal ppc
-cCreateUniversalBinary /Users/abhishekmishra/code/chatmasala/chatmasala/build/Debug/chatmasala.app/Contents/MacOS/chatmasala normal "i386 ppc"
-cTouch /Users/abhishekmishra/code/chatmasala/chatmasala/build/Debug/chatmasala.app
-
-N/Developer/SDKs/MacOSX10.5.sdk
-c000000004B7E366000000000000000EE
-t1266562656
-s238
-
-N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
-c0000000040C4AA6800000000000001E5
-t1086630504
-s485
-
-N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Python.framework/Headers/Python.h
-c000000004864C5EF000000000000106C
-t1214563823
-s4204
-
-N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/WebKit.framework/WebKit
-c000000004B760CE30000000000079BD4
-t1266027747
-s498644
-
-N/System/Library/Frameworks/Cocoa.framework/Cocoa
-c000000004A1F2D63000000000000A5E0
-t1243557219
-s42464
-
-N/System/Library/Frameworks/Python.framework/Python
-c000000004B7498F600000000003E7770
-t1265932534
-s4093808
-
-N/Users/abhishekmishra/code/chatmasala/chatmasala/Chat.png
-c000000004C8367280000000000000D4D
-t1283680040
-s3405
-
-N/Users/abhishekmishra/code/chatmasala/chatmasala/Controller_MainWindow.py
-c000000004CA77A7F000000000000127B
-t1286044287
-s4731
-
-N/Users/abhishekmishra/code/chatmasala/chatmasala/English.lproj/InfoPlist.strings
-c000000004CA35A4300000000000000BE
-t1285773891
-s190
-
-N/Users/abhishekmishra/code/chatmasala/chatmasala/English.lproj/MainMenu.xib
-c000000004CA780CA0000000000032F17
-t1286045898
-s208663
-
-N/Users/abhishekmishra/code/chatmasala/chatmasala/Gmail.png
-c000000004C83678C0000000000000943
-t1283680140
-s2371
-
-N/Users/abhishekmishra/code/chatmasala/chatmasala/Help.png
-c000000004C83691C0000000000000CB6
-t1283680540
-s3254
-
-N/Users/abhishekmishra/code/chatmasala/chatmasala/Note.png
-c000000004C8369540000000000000642
-t1283680596
-s1602
-
-N/Users/abhishekmishra/code/chatmasala/chatmasala/Statistics.png
-c000000004C8368A40000000000000D28
-t1283680420
-s3368
-
-N/Users/abhishekmishra/code/chatmasala/chatmasala/Upwards.png
-c000000004C83690E0000000000000C96
-t1283680526
-s3222
-
-N/Users/abhishekmishra/code/chatmasala/chatmasala/build/Debug/chatmasala.app
-t1286045901
-s102
-
-N/Users/abhishekmishra/code/chatmasala/chatmasala/build/Debug/chatmasala.app/Contents/Info.plist
-t1286040623
-s908
-
-N/Users/abhishekmishra/code/chatmasala/chatmasala/build/Debug/chatmasala.app/Contents/MacOS/chatmasala
-t1286040627
-s38012
-
-N/Users/abhishekmishra/code/chatmasala/chatmasala/build/Debug/chatmasala.app/Contents/PkgInfo
-t1286040623
-s8
-
-N/Users/abhishekmishra/code/chatmasala/chatmasala/build/Debug/chatmasala.app/Contents/Resources/Chat.png
-t1286040623
-s3405
-
-N/Users/abhishekmishra/code/chatmasala/chatmasala/build/Debug/chatmasala.app/Contents/Resources/Controller_MainWindow.py
-t1286044288
-s4731
-
-N/Users/abhishekmishra/code/chatmasala/chatmasala/build/Debug/chatmasala.app/Contents/Resources/English.lproj/InfoPlist.strings
-t1286040625
-s190
-
-N/Users/abhishekmishra/code/chatmasala/chatmasala/build/Debug/chatmasala.app/Contents/Resources/English.lproj/MainMenu.nib
-t1286045901
-s38973
-
-N/Users/abhishekmishra/code/chatmasala/chatmasala/build/Debug/chatmasala.app/Contents/Resources/Gmail.png
-t1286040623
-s2371
-
-N/Users/abhishekmishra/code/chatmasala/chatmasala/build/Debug/chatmasala.app/Contents/Resources/Help.png
-t1286040623
-s3254
-
-N/Users/abhishekmishra/code/chatmasala/chatmasala/build/Debug/chatmasala.app/Contents/Resources/Note.png
-t1286040623
-s1602
-
-N/Users/abhishekmishra/code/chatmasala/chatmasala/build/Debug/chatmasala.app/Contents/Resources/Statistics.png
-t1286040623
-s3368
-
-N/Users/abhishekmishra/code/chatmasala/chatmasala/build/Debug/chatmasala.app/Contents/Resources/Upwards.png
-t1286040623
-s3222
-
-N/Users/abhishekmishra/code/chatmasala/chatmasala/build/Debug/chatmasala.app/Contents/Resources/chatmasala.png
-t1286040623
-s17465
-
-N/Users/abhishekmishra/code/chatmasala/chatmasala/build/Debug/chatmasala.app/Contents/Resources/chatmasalaAppDelegate.py
-t1286040623
-s373
-
-N/Users/abhishekmishra/code/chatmasala/chatmasala/build/Debug/chatmasala.app/Contents/Resources/chatmasala_core.py
-t1286040623
-s26
-
-N/Users/abhishekmishra/code/chatmasala/chatmasala/build/Debug/chatmasala.app/Contents/Resources/chatview.html
-t1286040623
-s5452
-
-N/Users/abhishekmishra/code/chatmasala/chatmasala/build/Debug/chatmasala.app/Contents/Resources/gattic.icns
-t1286040623
-s143364
-
-N/Users/abhishekmishra/code/chatmasala/chatmasala/build/Debug/chatmasala.app/Contents/Resources/helpers.py
-t1286040623
-s903
-
-N/Users/abhishekmishra/code/chatmasala/chatmasala/build/Debug/chatmasala.app/Contents/Resources/main.py
-t1286040623
-s565
-
-N/Users/abhishekmishra/code/chatmasala/chatmasala/build/Debug/chatmasala.app/Contents/Resources/try3_blurred.png
-t1286041195
-s147069
-
-N/Users/abhishekmishra/code/chatmasala/chatmasala/build/Debug/chatmasala.app/Contents/Resources/try3_final_512.png
-t1286040807
-s58125
-
-N/Users/abhishekmishra/code/chatmasala/chatmasala/build/Debug/chatmasala.app/Contents/Resources/try3_no_back.png
-t1286041195
-s73293
-
-N/Users/abhishekmishra/code/chatmasala/chatmasala/build/Debug/chatmasala.app/Contents/Resources/try3_no_color.png
-t1286042532
-s70151
-
-N/Users/abhishekmishra/code/chatmasala/chatmasala/build/chatmasala.build/Debug/chatmasala.build/Objects-normal/i386/chatmasala
-t1285968460
-s18048
-
-N/Users/abhishekmishra/code/chatmasala/chatmasala/build/chatmasala.build/Debug/chatmasala.build/Objects-normal/i386/chatmasala.LinkFileList
-c000000004CA651CA000000000000007A
-t1285968330
-s122
-
-N/Users/abhishekmishra/code/chatmasala/chatmasala/build/chatmasala.build/Debug/chatmasala.build/Objects-normal/i386/main.o
-t1285968459
-s10996
-
-N/Users/abhishekmishra/code/chatmasala/chatmasala/build/chatmasala.build/Debug/chatmasala.build/Objects-normal/ppc/chatmasala
-t1285968460
-s13436
-
-N/Users/abhishekmishra/code/chatmasala/chatmasala/build/chatmasala.build/Debug/chatmasala.build/Objects-normal/ppc/chatmasala.LinkFileList
-c000000004CA651CA0000000000000079
-t1285968330
-s121
-
-N/Users/abhishekmishra/code/chatmasala/chatmasala/build/chatmasala.build/Debug/chatmasala.build/Objects-normal/ppc/main.o
-t1285968460
-s11124
-
-N/Users/abhishekmishra/code/chatmasala/chatmasala/build/chatmasala.build/Debug/chatmasala.build/Objects-normal/x86_64/chatmasala
-t1285968346
-s14312
-
-N/Users/abhishekmishra/code/chatmasala/chatmasala/build/chatmasala.build/Debug/chatmasala.build/Objects-normal/x86_64/chatmasala.LinkFileList
-c000000004CA651CA000000000000007C
-t1285968330
-s124
-
-N/Users/abhishekmishra/code/chatmasala/chatmasala/build/chatmasala.build/Debug/chatmasala.build/Objects-normal/x86_64/main.o
-t1285968343
-s13196
-
-N/Users/abhishekmishra/code/chatmasala/chatmasala/chatmasala.png
-c000000004CA474C40000000000004439
-t1285846212
-s17465
-
-N/Users/abhishekmishra/code/chatmasala/chatmasala/chatmasalaAppDelegate.py
-c000000004CA4CA7D0000000000000175
-t1285868157
-s373
-
-N/Users/abhishekmishra/code/chatmasala/chatmasala/chatmasala_Prefix.pch
-c000000004CA35A430000000000000097
-t1285773891
-s151
-i<Cocoa/Cocoa.h>
-
-N/Users/abhishekmishra/code/chatmasala/chatmasala/chatmasala_core.py
-c000000004CA5F993000000000000001A
-t1285945747
-s26
-
-N/Users/abhishekmishra/code/chatmasala/chatmasala/chatview.html
-c000000004CA747AF000000000000154C
-t1286031279
-s5452
-
-N/Users/abhishekmishra/code/chatmasala/chatmasala/gattic.icns
-c000000004CA76A1A0000000000023004
-t1286040090
-s143364
-
-N/Users/abhishekmishra/code/chatmasala/chatmasala/helpers.py
-c000000004CA6ED860000000000000387
-t1286008198
-s903
-
-N/Users/abhishekmishra/code/chatmasala/chatmasala/main.m
-c000000004CA35A43000000000000070F
-t1285773891
-s1807
-i<Python/Python.h>
-i<Cocoa/Cocoa.h>
-
-N/Users/abhishekmishra/code/chatmasala/chatmasala/main.py
-c000000004CA6443E0000000000000235
-t1285964862
-s565
-
-N/Users/abhishekmishra/code/chatmasala/chatmasala/try3_blurred.png
-c000000004CA76D780000000000023E7D
-t1286040952
-s147069
-
-N/Users/abhishekmishra/code/chatmasala/chatmasala/try3_final_512.png
-c000000004CA769F6000000000000E30D
-t1286040054
-s58125
-
-N/Users/abhishekmishra/code/chatmasala/chatmasala/try3_no_back.png
-c000000004CA76D510000000000011E4D
-t1286040913
-s73293
-
-N/Users/abhishekmishra/code/chatmasala/chatmasala/try3_no_color.png
-c000000004CA773A30000000000011207
-t1286042531
-s70151
-
-N/var/folders/8Y/8Y9QavjcEvqRoYvV16qVDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/chatmasala_Prefix-epmgfkvvyxlfcienrvxpqwhrrdop/chatmasala_Prefix.pch.gch
-t1285968341
-s49819920
-
-N/var/folders/8Y/8Y9QavjcEvqRoYvV16qVDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/chatmasala_Prefix-fkiatztwbjfvdvfloczgfxkhvjbt/chatmasala_Prefix.pch.gch
-t1285968459
-s52740496
-
-N/var/folders/8Y/8Y9QavjcEvqRoYvV16qVDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/chatmasala_Prefix-fnzjqmtdjfdyogewfgizhssfmiew/chatmasala_Prefix.pch.gch
-t1285968341
-s49975504
-
-N/var/folders/8Y/8Y9QavjcEvqRoYvV16qVDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/chatmasala_Prefix-fxpetzshnxgoejebshmkvsftdsrs/chatmasala_Prefix.pch.gch
-t1285968458
-s49975504
-
-N/var/folders/8Y/8Y9QavjcEvqRoYvV16qVDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/chatmasala_Prefix-gmndfdiymusjotgijedztynmcmbe/chatmasala_Prefix.pch.gch
-t1285968342
-s52740496
-
-NInfo.plist
-c000000004CA76AAF00000000000003A9
-t1286040239
-s937
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies307738700#307738700#0(0"0(0#1#0"8642273600#0"0#
-
-CCompileC build/chatmasala.build/Debug/chatmasala.build/Objects-normal/i386/main.o /Users/abhishekmishra/code/chatmasala/chatmasala/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s307661259.624285
-e307661259.900149
-r1
-xCompileC
-xbuild/chatmasala.build/Debug/chatmasala.build/Objects-normal/i386/main.o
-x/Users/abhishekmishra/code/chatmasala/chatmasala/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@63"Compile /Users/abhishekmishra/code/chatmasala/chatmasala/main.m307661259#307661260#0(0"0(0#0#55"/Users/abhishekmishra/code/chatmasala/chatmasala/main.m8602329664#1182"    cd /Users/abhishekmishra/code/chatmasala/chatmasala    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O2 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/abhishekmishra/code/chatmasala/chatmasala/build/chatmasala.build/Debug/chatmasala.build/chatmasala.hmap -F/Users/abhishekmishra/code/chatmasala/chatmasala/build/Debug -I/Users/abhishekmishra/code/chatmasala/chatmasala/build/Debug/include -I/Users/abhishekmishra/code/chatmasala/chatmasala/build/chatmasala.build/Debug/chatmasala.build/DerivedSources/i386 -I/Users/abhishekmishra/code/chatmasala/chatmasala/build/chatmasala.build/Debug/chatmasala.build/DerivedSources -include /var/folders/8Y/8Y9QavjcEvqRoYvV16qVDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/chatmasala_Prefix-fkiatztwbjfvdvfloczgfxkhvjbt/chatmasala_Prefix.pch -c /Users/abhishekmishra/code/chatmasala/chatmasala/main.m -o /Users/abhishekmishra/code/chatmasala/chatmasala/build/chatmasala.build/Debug/chatmasala.build/Objects-normal/i386/main.o0#
-
-CCompileC build/chatmasala.build/Debug/chatmasala.build/Objects-normal/ppc/main.o /Users/abhishekmishra/code/chatmasala/chatmasala/main.m normal ppc objective-c com.apple.compilers.gcc.4_2
-s307661259.667272
-e307661260.405001
-r1
-xCompileC
-xbuild/chatmasala.build/Debug/chatmasala.build/Objects-normal/ppc/main.o
-x/Users/abhishekmishra/code/chatmasala/chatmasala/main.m
-xnormal
-xppc
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@63"Compile /Users/abhishekmishra/code/chatmasala/chatmasala/main.m307661259#307661260#0(0"0(0#0#55"/Users/abhishekmishra/code/chatmasala/chatmasala/main.m8607443616#1189"    cd /Users/abhishekmishra/code/chatmasala/chatmasala    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O2 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mtune=G5 -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/abhishekmishra/code/chatmasala/chatmasala/build/chatmasala.build/Debug/chatmasala.build/chatmasala.hmap -F/Users/abhishekmishra/code/chatmasala/chatmasala/build/Debug -I/Users/abhishekmishra/code/chatmasala/chatmasala/build/Debug/include -I/Users/abhishekmishra/code/chatmasala/chatmasala/build/chatmasala.build/Debug/chatmasala.build/DerivedSources/ppc -I/Users/abhishekmishra/code/chatmasala/chatmasala/build/chatmasala.build/Debug/chatmasala.build/DerivedSources -include /var/folders/8Y/8Y9QavjcEvqRoYvV16qVDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/chatmasala_Prefix-fxpetzshnxgoejebshmkvsftdsrs/chatmasala_Prefix.pch -c /Users/abhishekmishra/code/chatmasala/chatmasala/main.m -o /Users/abhishekmishra/code/chatmasala/chatmasala/build/chatmasala.build/Debug/chatmasala.build/Objects-normal/ppc/main.o0#
-
-CCompileC build/chatmasala.build/Debug/chatmasala.build/Objects-normal/x86_64/main.o /Users/abhishekmishra/code/chatmasala/chatmasala/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s307661142.741749
-e307661143.798407
-r1
-xCompileC
-xbuild/chatmasala.build/Debug/chatmasala.build/Objects-normal/x86_64/main.o
-x/Users/abhishekmishra/code/chatmasala/chatmasala/main.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@63"Compile /Users/abhishekmishra/code/chatmasala/chatmasala/main.m307661142#307661143#0(0"0(0#0#55"/Users/abhishekmishra/code/chatmasala/chatmasala/main.m8605735968#1188"    cd /Users/abhishekmishra/code/chatmasala/chatmasala    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O2 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/abhishekmishra/code/chatmasala/chatmasala/build/chatmasala.build/Debug/chatmasala.build/chatmasala.hmap -F/Users/abhishekmishra/code/chatmasala/chatmasala/build/Debug -I/Users/abhishekmishra/code/chatmasala/chatmasala/build/Debug/include -I/Users/abhishekmishra/code/chatmasala/chatmasala/build/chatmasala.build/Debug/chatmasala.build/DerivedSources/x86_64 -I/Users/abhishekmishra/code/chatmasala/chatmasala/build/chatmasala.build/Debug/chatmasala.build/DerivedSources -include /var/folders/8Y/8Y9QavjcEvqRoYvV16qVDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/chatmasala_Prefix-epmgfkvvyxlfcienrvxpqwhrrdop/chatmasala_Prefix.pch -c /Users/abhishekmishra/code/chatmasala/chatmasala/main.m -o /Users/abhishekmishra/code/chatmasala/chatmasala/build/chatmasala.build/Debug/chatmasala.build/Objects-normal/x86_64/main.o0#
-
-CCompileXIB /Users/abhishekmishra/code/chatmasala/chatmasala/English.lproj/MainMenu.xib
-s307738700.385211
-e307738701.112861
-r1
-xCompileXIB
-x/Users/abhishekmishra/code/chatmasala/chatmasala/English.lproj/MainMenu.xib
-o/* com.apple.ibtool.document.notices */
-o/Users/abhishekmishra/code/chatmasala/chatmasala/English.lproj/MainMenu.xib:515: note: This view is clipping its content.
-o/* com.apple.ibtool.document.warnings */
-o/Users/abhishekmishra/code/chatmasala/chatmasala/English.lproj/MainMenu.xib:673: warning: The "Pane Splitter" divider style is not supported on Mac OS X versions prior to 10.6.
-o/Users/abhishekmishra/code/chatmasala/chatmasala/English.lproj/MainMenu.xib:371: warning: This window's maximum size is smaller than its content rectangle's size, a situation which may result in unexpected runtime behavior.
-o/Users/abhishekmishra/code/chatmasala/chatmasala/English.lproj/MainMenu.xib:494: warning: The property "Uses Single Line Mode" is not supported on Mac OS X versions prior to 10.6.
-o/Users/abhishekmishra/code/chatmasala/chatmasala/English.lproj/MainMenu.xib:755: warning: The property "Uses Single Line Mode" is not supported on Mac OS X versions prior to 10.6.
-lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib307738700#307738701#0(964"/* com.apple.ibtool.document.notices *//Users/abhishekmishra/code/chatmasala/chatmasala/English.lproj/MainMenu.xib:515: note: This view is clipping its content./* com.apple.ibtool.document.warnings *//Users/abhishekmishra/code/chatmasala/chatmasala/English.lproj/MainMenu.xib:673: warning: The "Pane Splitter" divider style is not supported on Mac OS X versions prior to 10.6./Users/abhishekmishra/code/chatmasala/chatmasala/English.lproj/MainMenu.xib:371: warning: This window's maximum size is smaller than its content rectangle's size, a situation which may result in unexpected runtime behavior./Users/abhishekmishra/code/chatmasala/chatmasala/English.lproj/MainMenu.xib:494: warning: The property "Uses Single Line Mode" is not supported on Mac OS X versions prior to 10.6./Users/abhishekmishra/code/chatmasala/chatmasala/English.lproj/MainMenu.xib:755: warning: The property "Uses Single Line Mode" is not supported on Mac OS X versions prior to 10.6.5(13@34"This view is clipping its content.307738701#18446744073709551615#0#0(6@75"/Users/abhishekmishra/code/chatmasala/chatmasala/English.lproj/MainMenu.xib307738698#515#0#515#0#0"0(22@86"The "Pane Splitter" divider style is not supported on Mac OS X versions prior to 10.6.307738701#18446744073709551615#0#0(6@75"/Users/abhishekmishra/code/chatmasala/chatmasala/English.lproj/MainMenu.xib307738698#673#0#673#0#0"0(22@133"This window's maximum size is smaller than its content rectangle's size, a situation which may result in unexpected runtime behavior.307738701#18446744073709551615#0#0(6@75"/Users/abhishekmishra/code/chatmasala/chatmasala/English.lproj/MainMenu.xib307738698#371#0#371#0#0"0(22@89"The property "Uses Single Line Mode" is not supported on Mac OS X versions prior to 10.6.307738701#18446744073709551615#0#0(6@75"/Users/abhishekmishra/code/chatmasala/chatmasala/English.lproj/MainMenu.xib307738698#494#0#494#0#0"0(22@89"The property "Uses Single Line Mode" is not supported on Mac OS X versions prior to 10.6.307738701#18446744073709551615#0#0(6@75"/Users/abhishekmishra/code/chatmasala/chatmasala/English.lproj/MainMenu.xib307738698#755#0#755#0#0"0(0#0#75"/Users/abhishekmishra/code/chatmasala/chatmasala/English.lproj/MainMenu.xib8641220576#397"    cd /Users/abhishekmishra/code/chatmasala/chatmasala    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/abhishekmishra/code/chatmasala/chatmasala/build/Debug/chatmasala.app/Contents/Resources/English.lproj/MainMenu.nib /Users/abhishekmishra/code/chatmasala/chatmasala/English.lproj/MainMenu.xib --sdk /Developer/SDKs/MacOSX10.5.sdk0#
-
-CCopyStringsFile /Users/abhishekmishra/code/chatmasala/chatmasala/build/Debug/chatmasala.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
-s307733423.460084
-e307733426.015691
-r1
-xCopyStringsFile
-x/Users/abhishekmishra/code/chatmasala/chatmasala/build/Debug/chatmasala.app/Contents/Resources/English.lproj/InfoPlist.strings
-xEnglish.lproj/InfoPlist.strings
-lSLF07#2@36"Copy English.lproj/InfoPlist.strings307733423#307733426#0(0"0(0#0#80"/Users/abhishekmishra/code/chatmasala/chatmasala/English.lproj/InfoPlist.strings8634174176#389"    cd /Users/abhishekmishra/code/chatmasala/chatmasala    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-16 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/abhishekmishra/code/chatmasala/chatmasala/build/Debug/chatmasala.app/Contents/Resources/English.lproj0#
-
-CCpResource build/Debug/chatmasala.app/Contents/Resources/Chat.png Chat.png
-s307733423.561430
-e307733423.592886
-r1
-xCpResource
-xbuild/Debug/chatmasala.app/Contents/Resources/Chat.png
-xChat.png
-lSLF07#2@13"Copy Chat.png307733423#307733423#0(0"0(0#0#57"/Users/abhishekmishra/code/chatmasala/chatmasala/Chat.png8632518784#357"    cd /Users/abhishekmishra/code/chatmasala/chatmasala    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/abhishekmishra/code/chatmasala/chatmasala/Chat.png /Users/abhishekmishra/code/chatmasala/chatmasala/build/Debug/chatmasala.app/Contents/Resources0#
-
-CCpResource build/Debug/chatmasala.app/Contents/Resources/Controller_MainWindow.py Controller_MainWindow.py
-s307737088.707167
-e307737088.713342
-r1
-xCpResource
-xbuild/Debug/chatmasala.app/Contents/Resources/Controller_MainWindow.py
-xController_MainWindow.py
-lSLF07#2@29"Copy Controller_MainWindow.py307737088#307737088#0(0"0(0#0#73"/Users/abhishekmishra/code/chatmasala/chatmasala/Controller_MainWindow.py8637849056#373"    cd /Users/abhishekmishra/code/chatmasala/chatmasala    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/abhishekmishra/code/chatmasala/chatmasala/Controller_MainWindow.py /Users/abhishekmishra/code/chatmasala/chatmasala/build/Debug/chatmasala.app/Contents/Resources0#
-
-CCpResource build/Debug/chatmasala.app/Contents/Resources/Gmail.png Gmail.png
-s307733423.562187
-e307733423.594941
-r1
-xCpResource
-xbuild/Debug/chatmasala.app/Contents/Resources/Gmail.png
-xGmail.png
-lSLF07#2@14"Copy Gmail.png307733423#307733423#0(0"0(0#0#58"/Users/abhishekmishra/code/chatmasala/chatmasala/Gmail.png8632023072#358"    cd /Users/abhishekmishra/code/chatmasala/chatmasala    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/abhishekmishra/code/chatmasala/chatmasala/Gmail.png /Users/abhishekmishra/code/chatmasala/chatmasala/build/Debug/chatmasala.app/Contents/Resources0#
-
-CCpResource build/Debug/chatmasala.app/Contents/Resources/Help.png Help.png
-s307733423.562960
-e307733423.595103
-r1
-xCpResource
-xbuild/Debug/chatmasala.app/Contents/Resources/Help.png
-xHelp.png
-lSLF07#2@13"Copy Help.png307733423#307733423#0(0"0(0#0#57"/Users/abhishekmishra/code/chatmasala/chatmasala/Help.png8631718176#357"    cd /Users/abhishekmishra/code/chatmasala/chatmasala    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/abhishekmishra/code/chatmasala/chatmasala/Help.png /Users/abhishekmishra/code/chatmasala/chatmasala/build/Debug/chatmasala.app/Contents/Resources0#
-
-CCpResource build/Debug/chatmasala.app/Contents/Resources/Note.png Note.png
-s307733423.563750
-e307733423.595246
-r1
-xCpResource
-xbuild/Debug/chatmasala.app/Contents/Resources/Note.png
-xNote.png
-lSLF07#2@13"Copy Note.png307733423#307733423#0(0"0(0#0#57"/Users/abhishekmishra/code/chatmasala/chatmasala/Note.png8630980256#357"    cd /Users/abhishekmishra/code/chatmasala/chatmasala    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/abhishekmishra/code/chatmasala/chatmasala/Note.png /Users/abhishekmishra/code/chatmasala/chatmasala/build/Debug/chatmasala.app/Contents/Resources0#
-
-CCpResource build/Debug/chatmasala.app/Contents/Resources/Statistics.png Statistics.png
-s307733423.564586
-e307733423.593110
-r1
-xCpResource
-xbuild/Debug/chatmasala.app/Contents/Resources/Statistics.png
-xStatistics.png
-lSLF07#2@19"Copy Statistics.png307733423#307733423#0(0"0(0#0#63"/Users/abhishekmishra/code/chatmasala/chatmasala/Statistics.png8629599104#363"    cd /Users/abhishekmishra/code/chatmasala/chatmasala    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/abhishekmishra/code/chatmasala/chatmasala/Statistics.png /Users/abhishekmishra/code/chatmasala/chatmasala/build/Debug/chatmasala.app/Contents/Resources0#
-
-CCpResource build/Debug/chatmasala.app/Contents/Resources/Upwards.png Upwards.png
-s307733423.565400
-e307733423.595388
-r1
-xCpResource
-xbuild/Debug/chatmasala.app/Contents/Resources/Upwards.png
-xUpwards.png
-lSLF07#2@16"Copy Upwards.png307733423#307733423#0(0"0(0#0#60"/Users/abhishekmishra/code/chatmasala/chatmasala/Upwards.png8629507264#360"    cd /Users/abhishekmishra/code/chatmasala/chatmasala    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/abhishekmishra/code/chatmasala/chatmasala/Upwards.png /Users/abhishekmishra/code/chatmasala/chatmasala/build/Debug/chatmasala.app/Contents/Resources0#
-
-CCpResource build/Debug/chatmasala.app/Contents/Resources/chatmasala.png chatmasala.png
-s307733423.560655
-e307733423.615326
-r1
-xCpResource
-xbuild/Debug/chatmasala.app/Contents/Resources/chatmasala.png
-xchatmasala.png
-lSLF07#2@19"Copy chatmasala.png307733423#307733424#0(0"0(0#0#63"/Users/abhishekmishra/code/chatmasala/chatmasala/chatmasala.png8632734560#363"    cd /Users/abhishekmishra/code/chatmasala/chatmasala    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/abhishekmishra/code/chatmasala/chatmasala/chatmasala.png /Users/abhishekmishra/code/chatmasala/chatmasala/build/Debug/chatmasala.app/Contents/Resources0#
-
-CCpResource build/Debug/chatmasala.app/Contents/Resources/chatmasalaAppDelegate.py chatmasalaAppDelegate.py
-s307733423.461610
-e307733423.560567
-r1
-xCpResource
-xbuild/Debug/chatmasala.app/Contents/Resources/chatmasalaAppDelegate.py
-xchatmasalaAppDelegate.py
-lSLF07#2@29"Copy chatmasalaAppDelegate.py307733423#307733423#0(0"0(0#0#73"/Users/abhishekmishra/code/chatmasala/chatmasala/chatmasalaAppDelegate.py8633432832#373"    cd /Users/abhishekmishra/code/chatmasala/chatmasala    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/abhishekmishra/code/chatmasala/chatmasala/chatmasalaAppDelegate.py /Users/abhishekmishra/code/chatmasala/chatmasala/build/Debug/chatmasala.app/Contents/Resources0#
-
-CCpResource build/Debug/chatmasala.app/Contents/Resources/chatmasala_core.py chatmasala_core.py
-s307733423.596232
-e307733423.751940
-r1
-xCpResource
-xbuild/Debug/chatmasala.app/Contents/Resources/chatmasala_core.py
-xchatmasala_core.py
-lSLF07#2@23"Copy chatmasala_core.py307733423#307733424#0(0"0(0#0#67"/Users/abhishekmishra/code/chatmasala/chatmasala/chatmasala_core.py8636324000#367"    cd /Users/abhishekmishra/code/chatmasala/chatmasala    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/abhishekmishra/code/chatmasala/chatmasala/chatmasala_core.py /Users/abhishekmishra/code/chatmasala/chatmasala/build/Debug/chatmasala.app/Contents/Resources0#
-
-CCpResource build/Debug/chatmasala.app/Contents/Resources/chatview.html chatview.html
-s307733423.595473
-e307733423.751274
-r1
-xCpResource
-xbuild/Debug/chatmasala.app/Contents/Resources/chatview.html
-xchatview.html
-lSLF07#2@18"Copy chatview.html307733423#307733424#0(0"0(0#0#62"/Users/abhishekmishra/code/chatmasala/chatmasala/chatview.html8637815552#362"    cd /Users/abhishekmishra/code/chatmasala/chatmasala    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/abhishekmishra/code/chatmasala/chatmasala/chatview.html /Users/abhishekmishra/code/chatmasala/chatmasala/build/Debug/chatmasala.app/Contents/Resources0#
-
-CCpResource build/Debug/chatmasala.app/Contents/Resources/gattic.icns gattic.icns
-s307733423.596954
-e307733424.069460
-r1
-xCpResource
-xbuild/Debug/chatmasala.app/Contents/Resources/gattic.icns
-xgattic.icns
-lSLF07#2@16"Copy gattic.icns307733423#307733424#0(0"0(0#0#60"/Users/abhishekmishra/code/chatmasala/chatmasala/gattic.icns8632649408#360"    cd /Users/abhishekmishra/code/chatmasala/chatmasala    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/abhishekmishra/code/chatmasala/chatmasala/gattic.icns /Users/abhishekmishra/code/chatmasala/chatmasala/build/Debug/chatmasala.app/Contents/Resources0#
-
-CCpResource build/Debug/chatmasala.app/Contents/Resources/helpers.py helpers.py
-s307733423.594090
-e307733423.752274
-r1
-xCpResource
-xbuild/Debug/chatmasala.app/Contents/Resources/helpers.py
-xhelpers.py
-lSLF07#2@15"Copy helpers.py307733423#307733424#0(0"0(0#0#59"/Users/abhishekmishra/code/chatmasala/chatmasala/helpers.py8639818368#359"    cd /Users/abhishekmishra/code/chatmasala/chatmasala    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/abhishekmishra/code/chatmasala/chatmasala/helpers.py /Users/abhishekmishra/code/chatmasala/chatmasala/build/Debug/chatmasala.app/Contents/Resources0#
-
-CCpResource build/Debug/chatmasala.app/Contents/Resources/main.py main.py
-s307733423.461060
-e307733423.603424
-r1
-xCpResource
-xbuild/Debug/chatmasala.app/Contents/Resources/main.py
-xmain.py
-lSLF07#2@12"Copy main.py307733423#307733423#0(0"0(0#0#56"/Users/abhishekmishra/code/chatmasala/chatmasala/main.py8633789536#356"    cd /Users/abhishekmishra/code/chatmasala/chatmasala    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/abhishekmishra/code/chatmasala/chatmasala/main.py /Users/abhishekmishra/code/chatmasala/chatmasala/build/Debug/chatmasala.app/Contents/Resources0#
-
-CCpResource build/Debug/chatmasala.app/Contents/Resources/try3_blurred.png try3_blurred.png
-s307733995.305808
-e307733995.596137
-r1
-xCpResource
-xbuild/Debug/chatmasala.app/Contents/Resources/try3_blurred.png
-xtry3_blurred.png
-lSLF07#2@21"Copy try3_blurred.png307733995#307733995#0(0"0(0#0#65"/Users/abhishekmishra/code/chatmasala/chatmasala/try3_blurred.png8639513248#365"    cd /Users/abhishekmishra/code/chatmasala/chatmasala    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/abhishekmishra/code/chatmasala/chatmasala/try3_blurred.png /Users/abhishekmishra/code/chatmasala/chatmasala/build/Debug/chatmasala.app/Contents/Resources0#
-
-CCpResource build/Debug/chatmasala.app/Contents/Resources/try3_final_512.png try3_final_512.png
-s307733607.451575
-e307733607.472287
-r1
-xCpResource
-xbuild/Debug/chatmasala.app/Contents/Resources/try3_final_512.png
-xtry3_final_512.png
-lSLF07#2@23"Copy try3_final_512.png307733607#307733607#0(0"0(0#0#67"/Users/abhishekmishra/code/chatmasala/chatmasala/try3_final_512.png8617622496#367"    cd /Users/abhishekmishra/code/chatmasala/chatmasala    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/abhishekmishra/code/chatmasala/chatmasala/try3_final_512.png /Users/abhishekmishra/code/chatmasala/chatmasala/build/Debug/chatmasala.app/Contents/Resources0#
-
-CCpResource build/Debug/chatmasala.app/Contents/Resources/try3_no_back.png try3_no_back.png
-s307733995.321676
-e307733995.597012
-r1
-xCpResource
-xbuild/Debug/chatmasala.app/Contents/Resources/try3_no_back.png
-xtry3_no_back.png
-lSLF07#2@21"Copy try3_no_back.png307733995#307733995#0(0"0(0#0#65"/Users/abhishekmishra/code/chatmasala/chatmasala/try3_no_back.png8639261632#365"    cd /Users/abhishekmishra/code/chatmasala/chatmasala    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/abhishekmishra/code/chatmasala/chatmasala/try3_no_back.png /Users/abhishekmishra/code/chatmasala/chatmasala/build/Debug/chatmasala.app/Contents/Resources0#
-
-CCpResource build/Debug/chatmasala.app/Contents/Resources/try3_no_color.png try3_no_color.png
-s307735332.475730
-e307735332.529313
-r1
-xCpResource
-xbuild/Debug/chatmasala.app/Contents/Resources/try3_no_color.png
-xtry3_no_color.png
-lSLF07#2@22"Copy try3_no_color.png307735332#307735332#0(0"0(0#0#66"/Users/abhishekmishra/code/chatmasala/chatmasala/try3_no_color.png8637683776#366"    cd /Users/abhishekmishra/code/chatmasala/chatmasala    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/abhishekmishra/code/chatmasala/chatmasala/try3_no_color.png /Users/abhishekmishra/code/chatmasala/chatmasala/build/Debug/chatmasala.app/Contents/Resources0#
-
-CCreateUniversalBinary /Users/abhishekmishra/code/chatmasala/chatmasala/build/Debug/chatmasala.app/Contents/MacOS/chatmasala normal "i386 ppc"
-s307733427.393790
-e307733427.703904
-r1
-xCreateUniversalBinary
-x/Users/abhishekmishra/code/chatmasala/chatmasala/build/Debug/chatmasala.app/Contents/MacOS/chatmasala
-xnormal
-xi386 ppc
-lSLF07#2@92"CreateUniversalBinary build/Debug/chatmasala.app/Contents/MacOS/chatmasala normal "i386 ppc"307733427#307733427#0(0"0(0#0#57"/Users/abhishekmishra/code/chatmasala/chatmasala/i386 ppc8639754720#443"    cd /Users/abhishekmishra/code/chatmasala/chatmasala    /usr/bin/lipo -create /Users/abhishekmishra/code/chatmasala/chatmasala/build/chatmasala.build/Debug/chatmasala.build/Objects-normal/i386/chatmasala /Users/abhishekmishra/code/chatmasala/chatmasala/build/chatmasala.build/Debug/chatmasala.build/Objects-normal/ppc/chatmasala -output /Users/abhishekmishra/code/chatmasala/chatmasala/build/Debug/chatmasala.app/Contents/MacOS/chatmasala0#
-
-CCreateUniversalBinary /Users/abhishekmishra/code/chatmasala/chatmasala/build/Debug/chatmasala.app/Contents/MacOS/chatmasala normal "x86_64 i386 ppc"
-s307661146.813857
-e307661146.935603
-r1
-xCreateUniversalBinary
-x/Users/abhishekmishra/code/chatmasala/chatmasala/build/Debug/chatmasala.app/Contents/MacOS/chatmasala
-xnormal
-xx86_64 i386 ppc
-lSLF07#2@99"CreateUniversalBinary build/Debug/chatmasala.app/Contents/MacOS/chatmasala normal "x86_64 i386 ppc"307661146#307661146#0(0"0(0#0#64"/Users/abhishekmishra/code/chatmasala/chatmasala/x86_64 i386 ppc8606667168#571"    cd /Users/abhishekmishra/code/chatmasala/chatmasala    /usr/bin/lipo -create /Users/abhishekmishra/code/chatmasala/chatmasala/build/chatmasala.build/Debug/chatmasala.build/Objects-normal/x86_64/chatmasala /Users/abhishekmishra/code/chatmasala/chatmasala/build/chatmasala.build/Debug/chatmasala.build/Objects-normal/i386/chatmasala /Users/abhishekmishra/code/chatmasala/chatmasala/build/chatmasala.build/Debug/chatmasala.build/Objects-normal/ppc/chatmasala -output /Users/abhishekmishra/code/chatmasala/chatmasala/build/Debug/chatmasala.app/Contents/MacOS/chatmasala0#
-
-CLd /Users/abhishekmishra/code/chatmasala/chatmasala/build/chatmasala.build/Debug/chatmasala.build/Objects-normal/i386/chatmasala normal i386
-s307661259.900284
-e307661260.547230
-r1
-xLd
-x/Users/abhishekmishra/code/chatmasala/chatmasala/build/chatmasala.build/Debug/chatmasala.build/Objects-normal/i386/chatmasala
-xnormal
-xi386
-lSLF07#2@130"Link /Users/abhishekmishra/code/chatmasala/chatmasala/build/chatmasala.build/Debug/chatmasala.build/Objects-normal/i386/chatmasala307661259#307661260#0(0"0(0#0#0"8602120000#672"    cd /Users/abhishekmishra/code/chatmasala/chatmasala    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.5.sdk -L/Users/abhishekmishra/code/chatmasala/chatmasala/build/Debug -F/Users/abhishekmishra/code/chatmasala/chatmasala/build/Debug -filelist /Users/abhishekmishra/code/chatmasala/chatmasala/build/chatmasala.build/Debug/chatmasala.build/Objects-normal/i386/chatmasala.LinkFileList -mmacosx-version-min=10.5 -framework Cocoa -framework Python -framework WebKit -prebind -o /Users/abhishekmishra/code/chatmasala/chatmasala/build/chatmasala.build/Debug/chatmasala.build/Objects-normal/i386/chatmasala0#
-
-CLd /Users/abhishekmishra/code/chatmasala/chatmasala/build/chatmasala.build/Debug/chatmasala.build/Objects-normal/ppc/chatmasala normal ppc
-s307661260.405120
-e307661260.575186
-r1
-xLd
-x/Users/abhishekmishra/code/chatmasala/chatmasala/build/chatmasala.build/Debug/chatmasala.build/Objects-normal/ppc/chatmasala
-xnormal
-xppc
-lSLF07#2@129"Link /Users/abhishekmishra/code/chatmasala/chatmasala/build/chatmasala.build/Debug/chatmasala.build/Objects-normal/ppc/chatmasala307661260#307661260#0(0"0(0#0#0"8601219840#669"    cd /Users/abhishekmishra/code/chatmasala/chatmasala    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch ppc -isysroot /Developer/SDKs/MacOSX10.5.sdk -L/Users/abhishekmishra/code/chatmasala/chatmasala/build/Debug -F/Users/abhishekmishra/code/chatmasala/chatmasala/build/Debug -filelist /Users/abhishekmishra/code/chatmasala/chatmasala/build/chatmasala.build/Debug/chatmasala.build/Objects-normal/ppc/chatmasala.LinkFileList -mmacosx-version-min=10.5 -framework Cocoa -framework Python -framework WebKit -prebind -o /Users/abhishekmishra/code/chatmasala/chatmasala/build/chatmasala.build/Debug/chatmasala.build/Objects-normal/ppc/chatmasala0#
-
-CLd /Users/abhishekmishra/code/chatmasala/chatmasala/build/chatmasala.build/Debug/chatmasala.build/Objects-normal/x86_64/chatmasala normal x86_64
-s307661143.798502
-e307661146.813724
-r1
-xLd
-x/Users/abhishekmishra/code/chatmasala/chatmasala/build/chatmasala.build/Debug/chatmasala.build/Objects-normal/x86_64/chatmasala
-xnormal
-xx86_64
-lSLF07#2@132"Link /Users/abhishekmishra/code/chatmasala/chatmasala/build/chatmasala.build/Debug/chatmasala.build/Objects-normal/x86_64/chatmasala307661143#307661146#0(0"0(0#0#0"8605943552#678"    cd /Users/abhishekmishra/code/chatmasala/chatmasala    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.5.sdk -L/Users/abhishekmishra/code/chatmasala/chatmasala/build/Debug -F/Users/abhishekmishra/code/chatmasala/chatmasala/build/Debug -filelist /Users/abhishekmishra/code/chatmasala/chatmasala/build/chatmasala.build/Debug/chatmasala.build/Objects-normal/x86_64/chatmasala.LinkFileList -mmacosx-version-min=10.5 -framework Cocoa -framework Python -framework WebKit -prebind -o /Users/abhishekmishra/code/chatmasala/chatmasala/build/chatmasala.build/Debug/chatmasala.build/Objects-normal/x86_64/chatmasala0#
-
-CProcessInfoPlistFile /Users/abhishekmishra/code/chatmasala/chatmasala/build/Debug/chatmasala.app/Contents/Info.plist Info.plist
-s307733423.456279
-e307733423.460010
-r1
-xProcessInfoPlistFile
-x/Users/abhishekmishra/code/chatmasala/chatmasala/build/Debug/chatmasala.app/Contents/Info.plist
-xInfo.plist
-lSLF07#2@18"Process Info.plist307733423#307733423#0(160"warning: 'CFBundleSignature' is 'Abhishek Mishra', which can't be converted to a four-character code in MacRoman encoding (as needed for PkgInfo); using '????'1(22@150"'CFBundleSignature' is 'Abhishek Mishra', which can't be converted to a four-character code in MacRoman encoding (as needed for PkgInfo); using '????'307733423#18446744073709551615#0#0(6@0"307733423#0#0#0#0#0"0(0#0#59"/Users/abhishekmishra/code/chatmasala/chatmasala/Info.plist8637398976#338"    cd /Users/abhishekmishra/code/chatmasala/chatmasala    builtin-infoPlistUtility Info.plist -genpkginfo /Users/abhishekmishra/code/chatmasala/chatmasala/build/Debug/chatmasala.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/abhishekmishra/code/chatmasala/chatmasala/build/Debug/chatmasala.app/Contents/Info.plist0#
-
-CProcessPCH /var/folders/8Y/8Y9QavjcEvqRoYvV16qVDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/chatmasala_Prefix-epmgfkvvyxlfcienrvxpqwhrrdop/chatmasala_Prefix.pch.gch chatmasala_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s307661130.839430
-e307661141.889397
-r1
-xProcessPCH
-x/var/folders/8Y/8Y9QavjcEvqRoYvV16qVDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/chatmasala_Prefix-epmgfkvvyxlfcienrvxpqwhrrdop/chatmasala_Prefix.pch.gch
-xchatmasala_Prefix.pch
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@32"Precompile chatmasala_Prefix.pch307661130#307661141#0(0"0(0#0#70"/Users/abhishekmishra/code/chatmasala/chatmasala/chatmasala_Prefix.pch8605253856#1081"    cd /Users/abhishekmishra/code/chatmasala/chatmasala    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O2 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/abhishekmishra/code/chatmasala/chatmasala/build/chatmasala.build/Debug/chatmasala.build/chatmasala.hmap -F/Users/abhishekmishra/code/chatmasala/chatmasala/build/Debug -I/Users/abhishekmishra/code/chatmasala/chatmasala/build/Debug/include -I/Users/abhishekmishra/code/chatmasala/chatmasala/build/chatmasala.build/Debug/chatmasala.build/DerivedSources/x86_64 -I/Users/abhishekmishra/code/chatmasala/chatmasala/build/chatmasala.build/Debug/chatmasala.build/DerivedSources -c /Users/abhishekmishra/code/chatmasala/chatmasala/chatmasala_Prefix.pch -o /var/folders/8Y/8Y9QavjcEvqRoYvV16qVDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/chatmasala_Prefix-epmgfkvvyxlfcienrvxpqwhrrdop/chatmasala_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/8Y/8Y9QavjcEvqRoYvV16qVDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/chatmasala_Prefix-fkiatztwbjfvdvfloczgfxkhvjbt/chatmasala_Prefix.pch.gch chatmasala_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s307661251.490857
-e307661259.624191
-r1
-xProcessPCH
-x/var/folders/8Y/8Y9QavjcEvqRoYvV16qVDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/chatmasala_Prefix-fkiatztwbjfvdvfloczgfxkhvjbt/chatmasala_Prefix.pch.gch
-xchatmasala_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@32"Precompile chatmasala_Prefix.pch307661251#307661260#0(0"0(0#0#70"/Users/abhishekmishra/code/chatmasala/chatmasala/chatmasala_Prefix.pch8605123328#1077"    cd /Users/abhishekmishra/code/chatmasala/chatmasala    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O2 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/abhishekmishra/code/chatmasala/chatmasala/build/chatmasala.build/Debug/chatmasala.build/chatmasala.hmap -F/Users/abhishekmishra/code/chatmasala/chatmasala/build/Debug -I/Users/abhishekmishra/code/chatmasala/chatmasala/build/Debug/include -I/Users/abhishekmishra/code/chatmasala/chatmasala/build/chatmasala.build/Debug/chatmasala.build/DerivedSources/i386 -I/Users/abhishekmishra/code/chatmasala/chatmasala/build/chatmasala.build/Debug/chatmasala.build/DerivedSources -c /Users/abhishekmishra/code/chatmasala/chatmasala/chatmasala_Prefix.pch -o /var/folders/8Y/8Y9QavjcEvqRoYvV16qVDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/chatmasala_Prefix-fkiatztwbjfvdvfloczgfxkhvjbt/chatmasala_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/8Y/8Y9QavjcEvqRoYvV16qVDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/chatmasala_Prefix-fnzjqmtdjfdyogewfgizhssfmiew/chatmasala_Prefix.pch.gch chatmasala_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_2
-s307661130.842069
-e307661142.350654
-r1
-xProcessPCH
-x/var/folders/8Y/8Y9QavjcEvqRoYvV16qVDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/chatmasala_Prefix-fnzjqmtdjfdyogewfgizhssfmiew/chatmasala_Prefix.pch.gch
-xchatmasala_Prefix.pch
-xnormal
-xppc
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@32"Precompile chatmasala_Prefix.pch307661130#307661142#0(0"0(0#0#70"/Users/abhishekmishra/code/chatmasala/chatmasala/chatmasala_Prefix.pch8603056864#1085"    cd /Users/abhishekmishra/code/chatmasala/chatmasala    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O2 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mtune=G5 -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/abhishekmishra/code/chatmasala/chatmasala/build/chatmasala.build/Debug/chatmasala.build/chatmasala.hmap -F/Users/abhishekmishra/code/chatmasala/chatmasala/build/Debug -I/Users/abhishekmishra/code/chatmasala/chatmasala/build/Debug/include -I/Users/abhishekmishra/code/chatmasala/chatmasala/build/chatmasala.build/Debug/chatmasala.build/DerivedSources/ppc -I/Users/abhishekmishra/code/chatmasala/chatmasala/build/chatmasala.build/Debug/chatmasala.build/DerivedSources -c /Users/abhishekmishra/code/chatmasala/chatmasala/chatmasala_Prefix.pch -o /var/folders/8Y/8Y9QavjcEvqRoYvV16qVDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/chatmasala_Prefix-fnzjqmtdjfdyogewfgizhssfmiew/chatmasala_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/8Y/8Y9QavjcEvqRoYvV16qVDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/chatmasala_Prefix-fxpetzshnxgoejebshmkvsftdsrs/chatmasala_Prefix.pch.gch chatmasala_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_2
-s307661251.491848
-e307661259.095772
-r1
-xProcessPCH
-x/var/folders/8Y/8Y9QavjcEvqRoYvV16qVDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/chatmasala_Prefix-fxpetzshnxgoejebshmkvsftdsrs/chatmasala_Prefix.pch.gch
-xchatmasala_Prefix.pch
-xnormal
-xppc
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@32"Precompile chatmasala_Prefix.pch307661251#307661259#0(0"0(0#0#70"/Users/abhishekmishra/code/chatmasala/chatmasala/chatmasala_Prefix.pch8603014464#1085"    cd /Users/abhishekmishra/code/chatmasala/chatmasala    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O2 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mtune=G5 -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/abhishekmishra/code/chatmasala/chatmasala/build/chatmasala.build/Debug/chatmasala.build/chatmasala.hmap -F/Users/abhishekmishra/code/chatmasala/chatmasala/build/Debug -I/Users/abhishekmishra/code/chatmasala/chatmasala/build/Debug/include -I/Users/abhishekmishra/code/chatmasala/chatmasala/build/chatmasala.build/Debug/chatmasala.build/DerivedSources/ppc -I/Users/abhishekmishra/code/chatmasala/chatmasala/build/chatmasala.build/Debug/chatmasala.build/DerivedSources -c /Users/abhishekmishra/code/chatmasala/chatmasala/chatmasala_Prefix.pch -o /var/folders/8Y/8Y9QavjcEvqRoYvV16qVDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/chatmasala_Prefix-fxpetzshnxgoejebshmkvsftdsrs/chatmasala_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/8Y/8Y9QavjcEvqRoYvV16qVDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/chatmasala_Prefix-gmndfdiymusjotgijedztynmcmbe/chatmasala_Prefix.pch.gch chatmasala_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s307661130.840819
-e307661142.741544
-r1
-xProcessPCH
-x/var/folders/8Y/8Y9QavjcEvqRoYvV16qVDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/chatmasala_Prefix-gmndfdiymusjotgijedztynmcmbe/chatmasala_Prefix.pch.gch
-xchatmasala_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@32"Precompile chatmasala_Prefix.pch307661130#307661142#0(0"0(0#0#70"/Users/abhishekmishra/code/chatmasala/chatmasala/chatmasala_Prefix.pch8604855744#1077"    cd /Users/abhishekmishra/code/chatmasala/chatmasala    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O2 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/abhishekmishra/code/chatmasala/chatmasala/build/chatmasala.build/Debug/chatmasala.build/chatmasala.hmap -F/Users/abhishekmishra/code/chatmasala/chatmasala/build/Debug -I/Users/abhishekmishra/code/chatmasala/chatmasala/build/Debug/include -I/Users/abhishekmishra/code/chatmasala/chatmasala/build/chatmasala.build/Debug/chatmasala.build/DerivedSources/i386 -I/Users/abhishekmishra/code/chatmasala/chatmasala/build/chatmasala.build/Debug/chatmasala.build/DerivedSources -c /Users/abhishekmishra/code/chatmasala/chatmasala/chatmasala_Prefix.pch -o /var/folders/8Y/8Y9QavjcEvqRoYvV16qVDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/chatmasala_Prefix-gmndfdiymusjotgijedztynmcmbe/chatmasala_Prefix.pch.gch0#
-
-CTouch /Users/abhishekmishra/code/chatmasala/chatmasala/build/Debug/chatmasala.app
-s307738701.113746
-e307738701.163940
-r1
-xTouch
-x/Users/abhishekmishra/code/chatmasala/chatmasala/build/Debug/chatmasala.app
-lSLF07#2@81"Touch /Users/abhishekmishra/code/chatmasala/chatmasala/build/Debug/chatmasala.app307738701#307738701#0(0"0(0#0#0"8636648416#154"    cd /Users/abhishekmishra/code/chatmasala/chatmasala    /usr/bin/touch -c /Users/abhishekmishra/code/chatmasala/chatmasala/build/Debug/chatmasala.app0#
-

@@ -52,7 +52,7 @@
 		7790198E0C07548A00326F66 /* chatmasalaAppDelegate.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = chatmasalaAppDelegate.py; sourceTree = "<group>"; };
 		77C8C1F80C07829500965286 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8D1107320486CEB800E47090 /* chatmasala.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chatmasala.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D1107320486CEB800E47090 /* Gattic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gattic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		912045AA12546768003F51D1 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		912045DD1254ACAC003F51D1 /* chatmasala.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chatmasala.png; sourceTree = "<group>"; };
 		912045F31254B75F003F51D1 /* Chat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chat.png; sourceTree = "<group>"; };
@@ -126,7 +126,7 @@
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8D1107320486CEB800E47090 /* chatmasala.app */,
+				8D1107320486CEB800E47090 /* Gattic.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -217,7 +217,7 @@
 			name = Gattic;
 			productInstallPath = "$(HOME)/Applications";
 			productName = chatmasala;
-			productReference = 8D1107320486CEB800E47090 /* chatmasala.app */;
+			productReference = 8D1107320486CEB800E47090 /* Gattic.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
